@@ -1,11 +1,11 @@
 import datetime
 import json
 import time
+import sys
 from datetime import timedelta
 from query.query_vulhub import VULHUB
 from query.query_nvd import NVD
 from query.query_cnnvd import CNNVD
-
 
 # 所有信息
 all_info = []
@@ -32,18 +32,34 @@ print("本周总数：", str(len(vulhub_info)))
 # print(vulhub_info)
 # print('\n')
 
-print("逐条打印：")
-for vul in vulhub_info:
-    cve_code = vul['cve']
-    cnnvd_code = vul['cnnvd']
-    vul['cwe'] = nvd.query_cwe(cve_code)
-    vul['level'] = cnnvd.query_level(cnnvd_code)
-    vul['type'] = cnnvd.query_type(cnnvd_code)
-    all_info.append(vul)
-    # 打印每一行,可以按需求注释掉
-    vul_str = json.dumps(vul, indent=4, ensure_ascii=False)
-    print(vul_str)
-    time.sleep(1)
+if sys.argv[1]:
+    print("逐条打印并输出到文件（weekly_infomation.txt）：")
+    for vul in vulhub_info:
+        cve_code = vul['cve']
+        cnnvd_code = vul['cnnvd']
+        vul['cwe'] = nvd.query_cwe(cve_code)
+        vul['level'] = cnnvd.query_level(cnnvd_code)
+        vul['type'] = cnnvd.query_type(cnnvd_code)
+        all_info.append(vul)
+        # 打印每一行,可以按需求注释掉
+        vul_str = json.dumps(vul, indent=4, ensure_ascii=False)
+        print(vul_str)
+        with open("weekly_infomation.txt", 'a', encoding='utf8') as f:
+            f.write(vul_str)
+        time.sleep(1)
+else:
+    print("逐条打印：")
+    for vul in vulhub_info:
+        cve_code = vul['cve']
+        cnnvd_code = vul['cnnvd']
+        vul['cwe'] = nvd.query_cwe(cve_code)
+        vul['level'] = cnnvd.query_level(cnnvd_code)
+        vul['type'] = cnnvd.query_type(cnnvd_code)
+        all_info.append(vul)
+        # 打印每一行,可以按需求注释掉
+        vul_str = json.dumps(vul, indent=4, ensure_ascii=False)
+        print(vul_str)
+        time.sleep(1)
 
 # # 非格式化打印,可以按需求注释掉
 # print('\n')
