@@ -158,7 +158,7 @@ class VULHUB:
             self.cve_list.append(cve)
             self.cnnvd_list.append(cnnvd)
             self.all_code.append({"date":date,"vhn":vhn,"cve":cve,"cnnvd":cnnvd,"description":description,"refer":query_url})
-        self.cve_list = list(set(self.cve_list))
+        # self.cve_list = list(set(self.cve_list))
         return self.cve_list
 
     # def get_all_cnnvd(self, start_date, end_date):
