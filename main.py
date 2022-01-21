@@ -33,24 +33,57 @@ print("本周总数：", str(len(vulhub_info)))
 # print(vulhub_info)
 # print('\n')
 
-txt_file_name = "weekly_infomation{}to{}.txt".format(this_week_start,this_week_end)
+txt_file_name = "weekly_all_infomation{}to{}.txt".format(this_week_start,this_week_end)
+good_txt = "weekly_good_infomation{}to{}.txt".format(this_week_start,this_week_end)
 with open(txt_file_name, 'w', encoding='utf8') as f:
     f.write('')
 print("逐条打印并输出到文件（{}）：".format(txt_file_name))
-for vul in vulhub_info:
-    vul['cwe'] = nvd.query_cwe(vul['cve'])
+if len(sys.argv) > 1:
+    for vul in vulhub_info:
 
-    all_info.append(vul)
-    # 过滤无效数据
-    if not vul["cnnvd"] and not vul["cnvd"]:
-        pass
+        all_info.append(vul)
+        # 过滤无效数据
+        if not vul["cnnvd"] and not vul["cnvd"]:
+            continue
 
-    # 打印每一行,可以按需求注释掉
-    vul_str = json.dumps(vul, indent=4, ensure_ascii=False)
-    print(vul_str)
-    with open(txt_file_name, 'a', encoding='utf8') as f:
-        f.write(vul_str)
-    time.sleep(1)
+        # 输出有cve、cnvd、cnnvd的数据
+        if (vul["cve"] and vul["cnvd"] and vul["cnnvd"]) or "高" in vul["level"]:
+            # 只有好的数据才爬取cwe
+            vul['cwe'] = nvd.query_cwe(vul['cve'])
+            good_vul = vul
+            vul_good_str = json.dumps(good_vul, indent=4, ensure_ascii=False)
+            with open(good_txt, 'a', encoding='utf8') as f:
+                f.write(vul_good_str)
+
+        # 打印每一行,可以按需求注释掉
+        vul_str = json.dumps(vul, indent=4, ensure_ascii=False)
+        print(vul_str)
+        with open(txt_file_name, 'a', encoding='utf8') as f:
+            f.write(vul_str)
+        # time.sleep(1)
+
+else:
+    for vul in vulhub_info:
+        vul['cwe'] = nvd.query_cwe(vul['cve'])
+
+        all_info.append(vul)
+        # 过滤无效数据
+        if not vul["cnnvd"] and not vul["cnvd"]:
+            continue
+
+        # 输出有cve、cnvd、cnnvd的数据
+        if vul["cve"] and vul["cnvd"] and vul["cnnvd"]:
+            good_vul = vul
+            vul_good_str = json.dumps(good_vul, indent=4, ensure_ascii=False)
+            with open(good_txt, 'a', encoding='utf8') as f:
+                f.write(vul_good_str)
+
+        # 打印每一行,可以按需求注释掉
+        vul_str = json.dumps(vul, indent=4, ensure_ascii=False)
+        print(vul_str)
+        with open(txt_file_name, 'a', encoding='utf8') as f:
+            f.write(vul_str)
+        # time.sleep(1)
 
 
 # # 非格式化打印,可以按需求注释掉
