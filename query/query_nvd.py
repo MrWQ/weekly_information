@@ -22,6 +22,10 @@ class NVD:
             resp = requests.get(url=query_url, headers=UA().get_ua(), timeout=TIMEOUT)
         except ConnectionError:
             self.get_html(cve)
+        except TimeoutError:
+            self.get_html(cve)
+        except BaseException:
+            self.get_html(cve)
         html = resp.text
         return html
 

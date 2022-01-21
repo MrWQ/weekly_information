@@ -18,6 +18,8 @@ class VULHUB:
         self.all_code = []
         self.cve_list = []
         self.cnnvd_list = []
+        self.cnvd_list = []
+        self.all_data = []
 
     def query_html_by_date(self, start_date, end_date, pages=1):
         """
@@ -60,7 +62,16 @@ class VULHUB:
         :return:
         """
         parse_vhn = re.findall(r'<a href="/vuln/(VHN-\d+)">', html)
-        return parse_vhn
+        parse_date = re.findall(r"<td class='hidden-xs hidden-sm'>(\d+-\d+-\d+)</td>", html)
+        parse_level = re.findall(r"""data-placement="bottom" title='(\w+)'""", html)
+        self.vhn_list.extend(parse_vhn)
+        for i in range(len(parse_vhn)):
+            temp = {}
+            temp["vhn"] = parse_vhn[i]
+            temp['date'] = parse_date[i]
+            temp['level'] = parse_level[i]
+            self.all_data.append(temp)
+        return self.all_data
 
     def get_all_vhn(self, start_date, end_date):
         """
@@ -71,8 +82,8 @@ class VULHUB:
         """
         pages = self.query_pages(start_date, end_date)
         for page in range(1, 1 + int(pages)):
-            self.vhn_list.extend(self.parse_query_html(self.query_html_by_date(start_date, end_date, page)))
-        self.vhn_list = list(set(self.vhn_list))
+            self.parse_query_html(self.query_html_by_date(start_date, end_date, page))
+        # self.vhn_list = list(set(self.vhn_list))
         return self.vhn_list
 
     def parse_cve(self, vhn_html):
@@ -92,7 +103,7 @@ class VULHUB:
 
     def parse_cnnvd(self, vhn_html):
         """
-        从VHN漏洞详情页面中提取cve编号
+        从VHN漏洞详情页面中提取CNNVD编号
         :param vhn_html: VHN漏洞详情页面
         :return:
         """
@@ -105,9 +116,24 @@ class VULHUB:
             pass
         return cnnvd
 
+    def parse_cnvd(self, vhn_html):
+        """
+        从VHN漏洞详情页面中提取CNVD编号
+        :param vhn_html: VHN漏洞详情页面
+        :return:
+        """
+        cnnvd = ""
+        try:
+            cnnvd = re.findall(r'<meta name="keywords" content=".*?(CNVD-\d+-\d+).*?" />', vhn_html)
+            if cnnvd:
+                cnnvd = cnnvd[0]
+        except:
+            pass
+        return cnnvd
+
     def parse_description(self, vhn_html):
         """
-        从VHN漏洞详情页面中提取cve编号
+        从VHN漏洞详情页面中提取描述
         :param vhn_html: VHN漏洞详情页面
         :return:
         """
@@ -122,7 +148,7 @@ class VULHUB:
 
     def parse_date(self, vhn_html):
         """
-        从VHN漏洞详情页面中提取cve编号
+        从VHN漏洞详情页面中提取日期
         :param vhn_html: VHN漏洞详情页面
         :return:
         """
@@ -135,31 +161,33 @@ class VULHUB:
             pass
         return date
 
-    def get_all_cve(self, start_date, end_date):
+    def get_all_data(self, start_date, end_date):
         """
-        指定时间范围，获得所有cve编号
+        指定时间范围，获得所有VULHUB 上数据
         :param start_date:
         :param end_date:
         :return:
         """
-        if self.cve_list:
-            return self.cve_list
+        # if self.cve_list:
+        #     return self.cve_list
         if not self.vhn_list:
             self.get_all_vhn(start_date, end_date)
-        for vhn in self.vhn_list:
-            query_url = "http://vulhub.org.cn/vuln/{}".format(vhn)
+        for item in self.all_data:
+            query_url = "http://vulhub.org.cn/vuln/{}".format(item["vhn"])
             resp = requests.get(url=query_url, headers=UA().get_ua(), timeout=TIMEOUT)
             html = resp.text
             cve = self.parse_cve(html)
             cnnvd = self.parse_cnnvd(html)
+            cnvd = self.parse_cnvd(html)
             description = self.parse_description(html)
             date = self.parse_date(html)
 
             self.cve_list.append(cve)
             self.cnnvd_list.append(cnnvd)
-            self.all_code.append({"date":date,"vhn":vhn,"cve":cve,"cnnvd":cnnvd,"description":description,"refer":query_url})
+            self.cnvd_list.append(cnvd)
+            item.update({"cve":cve,"cnvd":cnvd,"cnnvd":cnnvd,"description":description,"refer":query_url})
         # self.cve_list = list(set(self.cve_list))
-        return self.cve_list
+        return self.all_data
 
     # def get_all_cnnvd(self, start_date, end_date):
     #     """
@@ -185,10 +213,10 @@ class VULHUB:
     #     return self.cnnvd_list
 
     def get_all_code(self, start_date, end_date):
-        if self.all_code:
-            return self.all_code
-        self.get_all_cve(start_date, end_date)
-        return self.all_code
+        if self.all_data:
+            return self.all_data
+        self.get_all_data(start_date, end_date)
+        return self.all_data
 
 
 if __name__ == '__main__':
