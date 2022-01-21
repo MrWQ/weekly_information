@@ -42,7 +42,7 @@ for vul in vulhub_info:
 
     all_info.append(vul)
     # 过滤无效数据
-    if not vul["cnnvd"] and vul["cnvd"]:
+    if not vul["cnnvd"] and not vul["cnvd"]:
         pass
 
     # 打印每一行,可以按需求注释掉
