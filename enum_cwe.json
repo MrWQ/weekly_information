@@ -1,0 +1,4594 @@
+{
+  "RECORDS": [
+    {
+      "_id": "CWE-1",
+      "title_zh": "位置",
+      "title_en": "Location (2.4)"
+    },
+    {
+      "_id": "CWE-10",
+      "title_zh": "ASP.NET环境问题",
+      "title_en": "ASP.NET Environment Issues (2.4)"
+    },
+    {
+      "_id": "CWE-100",
+      "title_zh": "特定技术的输入验证问题",
+      "title_en": "Technology-Specific Input Validation Problems (2.4)"
+    },
+    {
+      "_id": "CWE-1000",
+      "title_zh": "研究中的概念",
+      "title_en": "Research Concepts (2.4)"
+    },
+    {
+      "_id": "CWE-101",
+      "title_zh": "Structs验证问题",
+      "title_en": "Struts Validation Problems (2.4)"
+    },
+    {
+      "_id": "CWE-102",
+      "title_zh": "Structs：重复验证表单",
+      "title_en": "Struts: Duplicate Validation Forms (2.4)"
+    },
+    {
+      "_id": "CWE-103",
+      "title_zh": "Structs：不完整的validate()方法定义",
+      "title_en": "Struts: Incomplete validate() Method Definition (2.4)"
+    },
+    {
+      "_id": "CWE-104",
+      "title_zh": "Structs：表单Bean未扩展验证类",
+      "title_en": "Struts: Form Bean Does Not Extend Validation Class (2.4)"
+    },
+    {
+      "_id": "CWE-105",
+      "title_zh": "Structs：缺少验证的表单域",
+      "title_en": "Struts: Form Field Without Validator (2.4)"
+    },
+    {
+      "_id": "CWE-106",
+      "title_zh": "Structs：插件框架未在使用",
+      "title_en": "Struts: Plug-in Framework not in Use (2.4)"
+    },
+    {
+      "_id": "CWE-107",
+      "title_zh": "Structs：未使用的验证表单",
+      "title_en": "Struts: Unused Validation Form (2.4)"
+    },
+    {
+      "_id": "CWE-108",
+      "title_zh": "Structs：未经验证的动作表单",
+      "title_en": "Struts: Unvalidated Action Form (2.4)"
+    },
+    {
+      "_id": "CWE-109",
+      "title_zh": "Structs：验证器关闭",
+      "title_en": "Struts: Validator Turned Off (2.4)"
+    },
+    {
+      "_id": "CWE-11",
+      "title_zh": "ASP.NET误配置：创建Debug模式二进制",
+      "title_en": "ASP.NET Misconfiguration: Creating Debug Binary (2.4)"
+    },
+    {
+      "_id": "CWE-110",
+      "title_zh": "Structs：无表单域的验证器",
+      "title_en": "Struts: Validator Without Form Field (2.4)"
+    },
+    {
+      "_id": "CWE-111",
+      "title_zh": "对不安全JNI的直接使用",
+      "title_en": "Direct Use of Unsafe JNI (2.4)"
+    },
+    {
+      "_id": "CWE-112",
+      "title_zh": "XML验证缺失",
+      "title_en": "Missing XML Validation (2.4)"
+    },
+    {
+      "_id": "CWE-113",
+      "title_zh": "HTTP头部中CRLF序列转义处理不恰当（HTTP响应分割）",
+      "title_en": "Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Response Splitting') (2.4)"
+    },
+    {
+      "_id": "CWE-114",
+      "title_zh": "流程控制",
+      "title_en": "Process Control (2.4)"
+    },
+    {
+      "_id": "CWE-115",
+      "title_zh": "输入的错误解释",
+      "title_en": "Misinterpretation of Input (2.4)"
+    },
+    {
+      "_id": "CWE-116",
+      "title_zh": "对输出编码和转义不恰当",
+      "title_en": "Improper Encoding or Escaping of Output (2.4)"
+    },
+    {
+      "_id": "CWE-117",
+      "title_zh": "日志输出的转义处理不恰当",
+      "title_en": "Improper Output Neutralization for Logs (2.4)"
+    },
+    {
+      "_id": "CWE-118",
+      "title_zh": "对可索引资源的访问不恰当（越界错误）",
+      "title_en": "Improper Access of Indexable Resource ('Range Error') (2.4)"
+    },
+    {
+      "_id": "CWE-119",
+      "title_zh": "内存缓冲区边界内操作的限制不恰当",
+      "title_en": "Improper Restriction of Operations within the Bounds of a Memory Buffer (2.4)"
+    },
+    {
+      "_id": "CWE-12",
+      "title_zh": "ASP.NET误配置：缺少定制错误页面",
+      "title_en": "ASP.NET Misconfiguration: Missing Custom Error Page (2.4)"
+    },
+    {
+      "_id": "CWE-120",
+      "title_zh": "未进行输入大小检查的缓冲区拷贝（传统缓冲区溢出）",
+      "title_en": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') (2.4)"
+    },
+    {
+      "_id": "CWE-121",
+      "title_zh": "栈缓冲区溢出",
+      "title_en": "Stack-based Buffer Overflow (2.4)"
+    },
+    {
+      "_id": "CWE-122",
+      "title_zh": "堆缓冲区溢出",
+      "title_en": "Heap-based Buffer Overflow (2.4)"
+    },
+    {
+      "_id": "CWE-123",
+      "title_zh": "任意地址可写任意内容条件",
+      "title_en": "Write-what-where Condition (2.4)"
+    },
+    {
+      "_id": "CWE-124",
+      "title_zh": "缓冲区下溢",
+      "title_en": "Buffer Underwrite ('Buffer Underflow') (2.4)"
+    },
+    {
+      "_id": "CWE-125",
+      "title_zh": "跨界内存读",
+      "title_en": "Out-of-bounds Read (2.4)"
+    },
+    {
+      "_id": "CWE-126",
+      "title_zh": "缓冲区上溢读取",
+      "title_en": "Buffer Over-read (2.4)"
+    },
+    {
+      "_id": "CWE-127",
+      "title_zh": "缓冲区下溢读取",
+      "title_en": "Buffer Under-read (2.4)"
+    },
+    {
+      "_id": "CWE-128",
+      "title_zh": "超界折返处理错误",
+      "title_en": "Wrap-around Error (2.4)"
+    },
+    {
+      "_id": "CWE-129",
+      "title_zh": "对数组索引的验证不恰当",
+      "title_en": "Improper Validation of Array Index (2.4)"
+    },
+    {
+      "_id": "CWE-13",
+      "title_zh": "ASP.NET误配置：配置文件中存储口令",
+      "title_en": "ASP.NET Misconfiguration: Password in Configuration File (2.4)"
+    },
+    {
+      "_id": "CWE-130",
+      "title_zh": "长度参数不一致性处理不恰当",
+      "title_en": "Improper Handling of Length Parameter Inconsistency  (2.4)"
+    },
+    {
+      "_id": "CWE-131",
+      "title_zh": "缓冲区大小计算不正确",
+      "title_en": "Incorrect Calculation of Buffer Size (2.4)"
+    },
+    {
+      "_id": "CWE-132",
+      "title_zh": "废弃(重复): 空终结符计算错误",
+      "title_en": "DEPRECATED (Duplicate): Miscalculated Null Termination (2.4)"
+    },
+    {
+      "_id": "CWE-133",
+      "title_zh": "字符串错误",
+      "title_en": "String Errors (2.4)"
+    },
+    {
+      "_id": "CWE-135",
+      "title_zh": "多字节字符串长度的计算不正确",
+      "title_en": "Incorrect Calculation of Multi-Byte String Length (2.4)"
+    },
+    {
+      "_id": "CWE-136",
+      "title_zh": "类型错误",
+      "title_en": "Type Errors (2.4)"
+    },
+    {
+      "_id": "CWE-137",
+      "title_zh": "表达错误",
+      "title_en": "Representation Errors (2.4)"
+    },
+    {
+      "_id": "CWE-138",
+      "title_zh": "对特殊元素的转义处理不恰当",
+      "title_en": "Improper Neutralization of Special Elements (2.4)"
+    },
+    {
+      "_id": "CWE-139",
+      "title_zh": "废弃：特殊元素通用问题",
+      "title_en": "DEPRECATED: General Special Element Problems (2.4)"
+    },
+    {
+      "_id": "CWE-14",
+      "title_zh": "编译器移除释放缓冲区的代码",
+      "title_en": "Compiler Removal of Code to Clear Buffers (2.4)"
+    },
+    {
+      "_id": "CWE-140",
+      "title_zh": "分隔符转义处理不恰当",
+      "title_en": "Improper Neutralization of Delimiters (2.4)"
+    },
+    {
+      "_id": "CWE-141",
+      "title_zh": "参数分隔符转义处理不恰当",
+      "title_en": "Improper Neutralization of Parameter/Argument Delimiters (2.4)"
+    },
+    {
+      "_id": "CWE-142",
+      "title_zh": "值分隔符转义处理不恰当",
+      "title_en": "Improper Neutralization of Value Delimiters (2.4)"
+    },
+    {
+      "_id": "CWE-143",
+      "title_zh": "记录分隔符转义处理不恰当",
+      "title_en": "Improper Neutralization of Record Delimiters (2.4)"
+    },
+    {
+      "_id": "CWE-144",
+      "title_zh": "行分隔符转义处理不恰当",
+      "title_en": "Improper Neutralization of Line Delimiters (2.4)"
+    },
+    {
+      "_id": "CWE-145",
+      "title_zh": "节分隔符转义处理不恰当",
+      "title_en": "Improper Neutralization of Section Delimiters (2.4)"
+    },
+    {
+      "_id": "CWE-146",
+      "title_zh": "表达式/命令分隔符转义处理不恰当",
+      "title_en": "Improper Neutralization of Expression/Command Delimiters (2.4)"
+    },
+    {
+      "_id": "CWE-147",
+      "title_zh": "输入终结符转义处理不恰当",
+      "title_en": "Improper Neutralization of Input Terminators (2.4)"
+    },
+    {
+      "_id": "CWE-148",
+      "title_zh": "输入起始符转义处理不恰当",
+      "title_en": "Improper Neutralization of Input Leaders (2.4)"
+    },
+    {
+      "_id": "CWE-149",
+      "title_zh": "引号语法转义处理不恰当",
+      "title_en": "Improper Neutralization of Quoting Syntax (2.4)"
+    },
+    {
+      "_id": "CWE-15",
+      "title_zh": "系统设置或配置在外部可控制",
+      "title_en": "External Control of System or Configuration Setting (2.4)"
+    },
+    {
+      "_id": "CWE-150",
+      "title_zh": "转义、元或控制序列转义处理不恰当",
+      "title_en": "Improper Neutralization of Escape, Meta, or Control Sequences (2.4)"
+    },
+    {
+      "_id": "CWE-151",
+      "title_zh": "注释分隔符转义处理不恰当",
+      "title_en": "Improper Neutralization of Comment Delimiters (2.4)"
+    },
+    {
+      "_id": "CWE-152",
+      "title_zh": "宏符号转义处理不恰当",
+      "title_en": "Improper Neutralization of Macro Symbols (2.4)"
+    },
+    {
+      "_id": "CWE-153",
+      "title_zh": "替代符号转义处理不恰当",
+      "title_en": "Improper Neutralization of Substitution Characters (2.4)"
+    },
+    {
+      "_id": "CWE-154",
+      "title_zh": "变量名分隔符转义处理不恰当",
+      "title_en": "Improper Neutralization of Variable Name Delimiters (2.4)"
+    },
+    {
+      "_id": "CWE-155",
+      "title_zh": "双字符或匹配符号转义处理不恰当",
+      "title_en": "Improper Neutralization of Wildcards or Matching Symbols (2.4)"
+    },
+    {
+      "_id": "CWE-156",
+      "title_zh": "空格转义处理不恰当",
+      "title_en": "Improper Neutralization of Whitespace (2.4)"
+    },
+    {
+      "_id": "CWE-157",
+      "title_zh": "结对分隔符的净化处理不恰当",
+      "title_en": "Failure to Sanitize Paired Delimiters (2.4)"
+    },
+    {
+      "_id": "CWE-158",
+      "title_zh": "空字节或NULL字符转义处理不恰当",
+      "title_en": "Improper Neutralization of Null Byte or NUL Character (2.4)"
+    },
+    {
+      "_id": "CWE-159",
+      "title_zh": "特殊元素净化处理不恰当",
+      "title_en": "Failure to Sanitize Special Element (2.4)"
+    },
+    {
+      "_id": "CWE-16",
+      "title_zh": "配置",
+      "title_en": "Configuration (2.4)"
+    },
+    {
+      "_id": "CWE-160",
+      "title_zh": "起始特殊元素净化处理不恰当",
+      "title_en": "Improper Neutralization of Leading Special Elements (2.4)"
+    },
+    {
+      "_id": "CWE-161",
+      "title_zh": "多重起始特殊元素净化处理不恰当",
+      "title_en": "Improper Neutralization of Multiple Leading Special Elements (2.4)"
+    },
+    {
+      "_id": "CWE-162",
+      "title_zh": "结尾特殊元素转义处理不恰当",
+      "title_en": "Improper Neutralization of Trailing Special Elements (2.4)"
+    },
+    {
+      "_id": "CWE-163",
+      "title_zh": "多重结尾特殊元素转义处理不恰当",
+      "title_en": "Improper Neutralization of Multiple Trailing Special Elements (2.4)"
+    },
+    {
+      "_id": "CWE-164",
+      "title_zh": "内部特殊元素净化处理不恰当",
+      "title_en": "Improper Neutralization of Internal Special Elements (2.4)"
+    },
+    {
+      "_id": "CWE-165",
+      "title_zh": "多重内部特殊元素净化处理不恰当",
+      "title_en": "Improper Neutralization of Multiple Internal Special Elements (2.4)"
+    },
+    {
+      "_id": "CWE-166",
+      "title_zh": "缺失特殊元素净化处理不恰当",
+      "title_en": "Improper Handling of Missing Special Element (2.4)"
+    },
+    {
+      "_id": "CWE-167",
+      "title_zh": "附加特殊元素净化处理不恰当",
+      "title_en": "Improper Handling of Additional Special Element (2.4)"
+    },
+    {
+      "_id": "CWE-168",
+      "title_zh": "不一致特殊元素净化处理不恰当",
+      "title_en": "Improper Handling of Inconsistent Special Elements (2.4)"
+    },
+    {
+      "_id": "CWE-169",
+      "title_zh": "特定技术的特殊元素",
+      "title_en": "Technology-Specific Special Elements (2.4)"
+    },
+    {
+      "_id": "CWE-17",
+      "title_zh": "代码",
+      "title_en": "Code (2.4)"
+    },
+    {
+      "_id": "CWE-170",
+      "title_zh": "不恰当的空终结符",
+      "title_en": "Improper Null Termination (2.4)"
+    },
+    {
+      "_id": "CWE-171",
+      "title_zh": "净化、规范化和比较错误",
+      "title_en": "Cleansing, Canonicalization, and Comparison Errors (2.4)"
+    },
+    {
+      "_id": "CWE-172",
+      "title_zh": "编码错误",
+      "title_en": "Encoding Error (2.4)"
+    },
+    {
+      "_id": "CWE-173",
+      "title_zh": "候选编码方案处理不恰当",
+      "title_en": "Improper Handling of Alternate Encoding (2.4)"
+    },
+    {
+      "_id": "CWE-174",
+      "title_zh": "对同一数据的双重编码",
+      "title_en": "Double Decoding of the Same Data (2.4)"
+    },
+    {
+      "_id": "CWE-175",
+      "title_zh": "混合编码处理不恰当",
+      "title_en": "Improper Handling of Mixed Encoding (2.4)"
+    },
+    {
+      "_id": "CWE-176",
+      "title_zh": "Unicode编码处理不恰当",
+      "title_en": "Improper Handling of Unicode Encoding (2.4)"
+    },
+    {
+      "_id": "CWE-177",
+      "title_zh": "URL编码处理不恰当（Hex编码）",
+      "title_en": "Improper Handling of URL Encoding (Hex Encoding) (2.4)"
+    },
+    {
+      "_id": "CWE-178",
+      "title_zh": "大小写敏感处理不恰当",
+      "title_en": "Improper Handling of Case Sensitivity (2.4)"
+    },
+    {
+      "_id": "CWE-179",
+      "title_zh": "不正确的行为次序：过早验证",
+      "title_en": "Incorrect Behavior Order: Early Validation (2.4)"
+    },
+    {
+      "_id": "CWE-18",
+      "title_zh": "源代码",
+      "title_en": "Source Code (2.4)"
+    },
+    {
+      "_id": "CWE-180",
+      "title_zh": "不正确的行为次序：规范化之前验证",
+      "title_en": "Incorrect Behavior Order: Validate Before Canonicalize (2.4)"
+    },
+    {
+      "_id": "CWE-181",
+      "title_zh": "不正确的行为次序：在过滤之前验证",
+      "title_en": "Incorrect Behavior Order: Validate Before Filter (2.4)"
+    },
+    {
+      "_id": "CWE-182",
+      "title_zh": "数据的崩溃导致不安全数值",
+      "title_en": "Collapse of Data into Unsafe Value (2.4)"
+    },
+    {
+      "_id": "CWE-183",
+      "title_zh": "宽松定义的白名单",
+      "title_en": "Permissive Whitelist (2.4)"
+    },
+    {
+      "_id": "CWE-184",
+      "title_zh": "不完整的黑名单",
+      "title_en": "Incomplete Blacklist (2.4)"
+    },
+    {
+      "_id": "CWE-185",
+      "title_zh": "不正确的正则表达式",
+      "title_en": "Incorrect Regular Expression (2.4)"
+    },
+    {
+      "_id": "CWE-186",
+      "title_zh": "过度严格的正则表达式",
+      "title_en": "Overly Restrictive Regular Expression (2.4)"
+    },
+    {
+      "_id": "CWE-187",
+      "title_zh": "部分比较",
+      "title_en": "Partial Comparison (2.4)"
+    },
+    {
+      "_id": "CWE-188",
+      "title_zh": "依赖数据/内存布局",
+      "title_en": "Reliance on Data/Memory Layout (2.4)"
+    },
+    {
+      "_id": "CWE-189",
+      "title_zh": "数值错误",
+      "title_en": "Numeric Errors (2.4)"
+    },
+    {
+      "_id": "CWE-19",
+      "title_zh": "数据处理",
+      "title_en": "Data Handling (2.4)"
+    },
+    {
+      "_id": "CWE-190",
+      "title_zh": "整数溢出或超界折返",
+      "title_en": "Integer Overflow or Wraparound (2.4)"
+    },
+    {
+      "_id": "CWE-191",
+      "title_zh": "整数下溢（超界折返）",
+      "title_en": "Integer Underflow (Wrap or Wraparound) (2.4)"
+    },
+    {
+      "_id": "CWE-192",
+      "title_zh": "整数强制转换错误",
+      "title_en": "Integer Coercion Error (2.4)"
+    },
+    {
+      "_id": "CWE-193",
+      "title_zh": "Off-by-one错误",
+      "title_en": "Off-by-one Error (2.4)"
+    },
+    {
+      "_id": "CWE-194",
+      "title_zh": "未预期的符号扩展",
+      "title_en": "Unexpected Sign Extension (2.4)"
+    },
+    {
+      "_id": "CWE-195",
+      "title_zh": "有符号至无符号转换错误",
+      "title_en": "Signed to Unsigned Conversion Error (2.4)"
+    },
+    {
+      "_id": "CWE-196",
+      "title_zh": "无符号至有符号转换错误",
+      "title_en": "Unsigned to Signed Conversion Error (2.4)"
+    },
+    {
+      "_id": "CWE-197",
+      "title_zh": "数值截断错误",
+      "title_en": "Numeric Truncation Error (2.4)"
+    },
+    {
+      "_id": "CWE-198",
+      "title_zh": "字节序使用不正确",
+      "title_en": "Use of Incorrect Byte Ordering (2.4)"
+    },
+    {
+      "_id": "CWE-199",
+      "title_zh": "信息管理错误",
+      "title_en": "Information Management Errors (2.4)"
+    },
+    {
+      "_id": "CWE-2",
+      "title_zh": "环境",
+      "title_en": "Environment (2.4)"
+    },
+    {
+      "_id": "CWE-20",
+      "title_zh": "输入验证不恰当",
+      "title_en": "Improper Input Validation (2.4)"
+    },
+    {
+      "_id": "CWE-200",
+      "title_zh": "信息暴露",
+      "title_en": "Information Exposure (2.4)"
+    },
+    {
+      "_id": "CWE-201",
+      "title_zh": "通过发送数据的信息暴露",
+      "title_en": "Information Exposure Through Sent Data (2.4)"
+    },
+    {
+      "_id": "CWE-202",
+      "title_zh": "通过数据查询的敏感数据暴露",
+      "title_en": "Exposure of Sensitive Data Through Data Queries (2.4)"
+    },
+    {
+      "_id": "CWE-203",
+      "title_zh": "通过差异性导致的信息暴露",
+      "title_en": "Information Exposure Through Discrepancy (2.4)"
+    },
+    {
+      "_id": "CWE-204",
+      "title_zh": "响应差异性信息暴露",
+      "title_en": "Response Discrepancy Information Exposure (2.4)"
+    },
+    {
+      "_id": "CWE-205",
+      "title_zh": "通过行为差异性导致的信息暴露",
+      "title_en": "Information Exposure Through Behavioral Discrepancy (2.4)"
+    },
+    {
+      "_id": "CWE-206",
+      "title_zh": "通过行为不一致性导致的内部状态信息暴露",
+      "title_en": "Information Exposure of Internal State Through Behavioral Inconsistency (2.4)"
+    },
+    {
+      "_id": "CWE-207",
+      "title_zh": "通过外部行为不一致性导致的信息暴露",
+      "title_en": "Information Exposure Through an External Behavioral Inconsistency (2.4)"
+    },
+    {
+      "_id": "CWE-208",
+      "title_zh": "通过时间差异性导致的信息暴露",
+      "title_en": "Information Exposure Through Timing Discrepancy (2.4)"
+    },
+    {
+      "_id": "CWE-209",
+      "title_zh": "通过错误消息导致的信息暴露",
+      "title_en": "Information Exposure Through an Error Message (2.4)"
+    },
+    {
+      "_id": "CWE-21",
+      "title_zh": "路径遍历与路径等价的安全错误",
+      "title_en": "Pathname Traversal and Equivalence Errors (2.4)"
+    },
+    {
+      "_id": "CWE-210",
+      "title_zh": "通过自主产生的错误消息导致的信息暴露",
+      "title_en": "Information Exposure Through Self-generated Error Message (2.4)"
+    },
+    {
+      "_id": "CWE-211",
+      "title_zh": "通过外部产生的错误消息导致的信息暴露",
+      "title_en": "Information Exposure Through Externally-generated Error Message (2.4)"
+    },
+    {
+      "_id": "CWE-212",
+      "title_zh": "敏感数据的不恰当跨边界移除",
+      "title_en": "Improper Cross-boundary Removal of Sensitive Data (2.4)"
+    },
+    {
+      "_id": "CWE-213",
+      "title_zh": "故意性的信息暴露",
+      "title_en": "Intentional Information Exposure (2.4)"
+    },
+    {
+      "_id": "CWE-214",
+      "title_zh": "通过处理环境导致的信息暴露",
+      "title_en": "Information Exposure Through Process Environment (2.4)"
+    },
+    {
+      "_id": "CWE-215",
+      "title_zh": "通过Debug信息导致的信息暴露",
+      "title_en": "Information Exposure Through Debug Information (2.4)"
+    },
+    {
+      "_id": "CWE-216",
+      "title_zh": "容器错误",
+      "title_en": "Containment Errors (Container Errors) (2.4)"
+    },
+    {
+      "_id": "CWE-217",
+      "title_zh": "废弃：未能保护存储数据的修改",
+      "title_en": "DEPRECATED: Failure to Protect Stored Data from Modification (2.4)"
+    },
+    {
+      "_id": "CWE-218",
+      "title_zh": "废弃(重复)：未能保护存储数据的机密性",
+      "title_en": "DEPRECATED (Duplicate): Failure to provide confidentiality for stored data (2.4)"
+    },
+    {
+      "_id": "CWE-219",
+      "title_zh": "Web根目录下的敏感数据",
+      "title_en": "Sensitive Data Under Web Root (2.4)"
+    },
+    {
+      "_id": "CWE-22",
+      "title_zh": "对路径名的限制不恰当（路径遍历）",
+      "title_en": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') (2.4)"
+    },
+    {
+      "_id": "CWE-220",
+      "title_zh": "FTP根目录下的敏感数据",
+      "title_en": "Sensitive Data Under FTP Root (2.4)"
+    },
+    {
+      "_id": "CWE-221",
+      "title_zh": "信息丢失或遗漏",
+      "title_en": "Information Loss or Omission (2.4)"
+    },
+    {
+      "_id": "CWE-222",
+      "title_zh": "安全相关信息的截断",
+      "title_en": "Truncation of Security-relevant Information (2.4)"
+    },
+    {
+      "_id": "CWE-223",
+      "title_zh": "安全相关信息的遗漏",
+      "title_en": "Omission of Security-relevant Information (2.4)"
+    },
+    {
+      "_id": "CWE-224",
+      "title_zh": "通过候选名称导致的安全相关信息混淆",
+      "title_en": "Obscured Security-relevant Information by Alternate Name (2.4)"
+    },
+    {
+      "_id": "CWE-225",
+      "title_zh": "废弃(重复)：通用信息管理问题",
+      "title_en": "DEPRECATED (Duplicate): General Information Management Problems (2.4)"
+    },
+    {
+      "_id": "CWE-226",
+      "title_zh": "在释放前未清除敏感信息",
+      "title_en": "Sensitive Information Uncleared Before Release (2.4)"
+    },
+    {
+      "_id": "CWE-227",
+      "title_zh": "履行API合约不恰当（API滥用）",
+      "title_en": "Improper Fulfillment of API Contract ('API Abuse') (2.4)"
+    },
+    {
+      "_id": "CWE-228",
+      "title_zh": "语法无效结构处理不恰当",
+      "title_en": "Improper Handling of Syntactically Invalid Structure (2.4)"
+    },
+    {
+      "_id": "CWE-229",
+      "title_zh": "值处理不恰当",
+      "title_en": "Improper Handling of Values (2.4)"
+    },
+    {
+      "_id": "CWE-23",
+      "title_zh": "相对路径遍历",
+      "title_en": "Relative Path Traversal (2.4)"
+    },
+    {
+      "_id": "CWE-230",
+      "title_zh": "缺失值处理不恰当",
+      "title_en": "Improper Handling of Missing Values (2.4)"
+    },
+    {
+      "_id": "CWE-231",
+      "title_zh": "额外值处理不恰当",
+      "title_en": "Improper Handling of Extra Values (2.4)"
+    },
+    {
+      "_id": "CWE-232",
+      "title_zh": "未定义值处理不恰当",
+      "title_en": "Improper Handling of Undefined Values (2.4)"
+    },
+    {
+      "_id": "CWE-233",
+      "title_zh": "参数问题",
+      "title_en": "Parameter Problems (2.4)"
+    },
+    {
+      "_id": "CWE-234",
+      "title_zh": "未对缺失参数进行处理",
+      "title_en": "Failure to Handle Missing Parameter (2.4)"
+    },
+    {
+      "_id": "CWE-235",
+      "title_zh": "对额外参数处理不恰当",
+      "title_en": "Improper Handling of Extra Parameters (2.4)"
+    },
+    {
+      "_id": "CWE-236",
+      "title_zh": "对未定义参数处理不恰当",
+      "title_en": "Improper Handling of Undefined Parameters (2.4)"
+    },
+    {
+      "_id": "CWE-237",
+      "title_zh": "结构体元素处理不恰当",
+      "title_en": "Improper Handling of Structural Elements (2.4)"
+    },
+    {
+      "_id": "CWE-238",
+      "title_zh": "对不完整结构体元素处理不恰当",
+      "title_en": "Improper Handling of Incomplete Structural Elements (2.4)"
+    },
+    {
+      "_id": "CWE-239",
+      "title_zh": "未能处理不完整的元素",
+      "title_en": "Failure to Handle Incomplete Element (2.4)"
+    },
+    {
+      "_id": "CWE-24",
+      "title_zh": "路径遍历：'../filedir'",
+      "title_en": "Path Traversal: '../filedir' (2.4)"
+    },
+    {
+      "_id": "CWE-240",
+      "title_zh": "对不一致结构体元素处理不恰当",
+      "title_en": "Improper Handling of Inconsistent Structural Elements (2.4)"
+    },
+    {
+      "_id": "CWE-241",
+      "title_zh": "非预期数据类型处理不恰当",
+      "title_en": "Improper Handling of Unexpected Data Type (2.4)"
+    },
+    {
+      "_id": "CWE-242",
+      "title_zh": "使用内在危险函数",
+      "title_en": "Use of Inherently Dangerous Function (2.4)"
+    },
+    {
+      "_id": "CWE-243",
+      "title_zh": "未改变工作目录时创建chroot Jail",
+      "title_en": "Creation of chroot Jail Without Changing Working Directory (2.4)"
+    },
+    {
+      "_id": "CWE-244",
+      "title_zh": "在释放前清理堆内存不恰当（堆检查）",
+      "title_en": "Improper Clearing of Heap Memory Before Release ('Heap Inspection') (2.4)"
+    },
+    {
+      "_id": "CWE-245",
+      "title_zh": "J2EE不安全实践：对连接的直接管理",
+      "title_en": "J2EE Bad Practices: Direct Management of Connections (2.4)"
+    },
+    {
+      "_id": "CWE-246",
+      "title_zh": "J2EE不安全实践：对套接字的直接使用",
+      "title_en": "J2EE Bad Practices: Direct Use of Sockets (2.4)"
+    },
+    {
+      "_id": "CWE-247",
+      "title_zh": "在安全决策中依赖DNS查询",
+      "title_en": "Reliance on DNS Lookups in a Security Decision (2.4)"
+    },
+    {
+      "_id": "CWE-248",
+      "title_zh": "未捕获的异常",
+      "title_en": "Uncaught Exception (2.4)"
+    },
+    {
+      "_id": "CWE-249",
+      "title_zh": "废弃：经常性滥用：路径操纵",
+      "title_en": "DEPRECATED: Often Misused: Path Manipulation (2.4)"
+    },
+    {
+      "_id": "CWE-25",
+      "title_zh": "路径遍历：'/../filedir'",
+      "title_en": "Path Traversal: '/../filedir' (2.4)"
+    },
+    {
+      "_id": "CWE-250",
+      "title_zh": "带着不必要的权限执行",
+      "title_en": "Execution with Unnecessary Privileges (2.4)"
+    },
+    {
+      "_id": "CWE-251",
+      "title_zh": "经常性滥用：字符串管理",
+      "title_en": "Often Misused: String Management (2.4)"
+    },
+    {
+      "_id": "CWE-252",
+      "title_zh": "未加检查的返回值",
+      "title_en": "Unchecked Return Value (2.4)"
+    },
+    {
+      "_id": "CWE-253",
+      "title_zh": "对函数返回值的检查不正确",
+      "title_en": "Incorrect Check of Function Return Value (2.4)"
+    },
+    {
+      "_id": "CWE-254",
+      "title_zh": "安全特性",
+      "title_en": "Security Features (2.4)"
+    },
+    {
+      "_id": "CWE-255",
+      "title_zh": "凭证管理",
+      "title_en": "Credentials Management (2.4)"
+    },
+    {
+      "_id": "CWE-256",
+      "title_zh": "明文存储口令",
+      "title_en": "Plaintext Storage of a Password (2.4)"
+    },
+    {
+      "_id": "CWE-257",
+      "title_zh": "以可恢复格式存储口令",
+      "title_en": "Storing Passwords in a Recoverable Format (2.4)"
+    },
+    {
+      "_id": "CWE-258",
+      "title_zh": "配置文件中缺省空口令",
+      "title_en": "Empty Password in Configuration File (2.4)"
+    },
+    {
+      "_id": "CWE-259",
+      "title_zh": "使用硬编码的口令",
+      "title_en": "Use of Hard-coded Password (2.4)"
+    },
+    {
+      "_id": "CWE-26",
+      "title_zh": "路径遍历：'dir/../filename'",
+      "title_en": "Path Traversal: '/dir/../filename' (2.4)"
+    },
+    {
+      "_id": "CWE-260",
+      "title_zh": "配置文件中存储口令",
+      "title_en": "Password in Configuration File (2.4)"
+    },
+    {
+      "_id": "CWE-261",
+      "title_zh": "口令使用弱密码学算法",
+      "title_en": "Weak Cryptography for Passwords (2.4)"
+    },
+    {
+      "_id": "CWE-262",
+      "title_zh": "未使用口令老化机制",
+      "title_en": "Not Using Password Aging (2.4)"
+    },
+    {
+      "_id": "CWE-263",
+      "title_zh": "口令老化拥有过长有效期",
+      "title_en": "Password Aging with Long Expiration (2.4)"
+    },
+    {
+      "_id": "CWE-264",
+      "title_zh": "权限、特权与访问控制",
+      "title_en": "Permissions, Privileges, and Access Controls (2.4)"
+    },
+    {
+      "_id": "CWE-265",
+      "title_zh": "特权、沙盒问题",
+      "title_en": "Privilege / Sandbox Issues (2.4)"
+    },
+    {
+      "_id": "CWE-266",
+      "title_zh": "特权授予不正确",
+      "title_en": "Incorrect Privilege Assignment (2.4)"
+    },
+    {
+      "_id": "CWE-267",
+      "title_zh": "特权定义了不安全动作",
+      "title_en": "Privilege Defined With Unsafe Actions (2.4)"
+    },
+    {
+      "_id": "CWE-268",
+      "title_zh": "特权链锁",
+      "title_en": "Privilege Chaining (2.4)"
+    },
+    {
+      "_id": "CWE-269",
+      "title_zh": "特权管理不恰当",
+      "title_en": "Improper Privilege Management (2.4)"
+    },
+    {
+      "_id": "CWE-27",
+      "title_zh": "路径遍历：'dir/../../filename'",
+      "title_en": "Path Traversal: 'dir/../../filename' (2.4)"
+    },
+    {
+      "_id": "CWE-270",
+      "title_zh": "特权上下文切换错误",
+      "title_en": "Privilege Context Switching Error (2.4)"
+    },
+    {
+      "_id": "CWE-271",
+      "title_zh": "特权放弃/降低错误",
+      "title_en": "Privilege Dropping / Lowering Errors (2.4)"
+    },
+    {
+      "_id": "CWE-272",
+      "title_zh": "最小特权原则违背",
+      "title_en": "Least Privilege Violation (2.4)"
+    },
+    {
+      "_id": "CWE-273",
+      "title_zh": "对于放弃特权的检查不恰当",
+      "title_en": "Improper Check for Dropped Privileges (2.4)"
+    },
+    {
+      "_id": "CWE-274",
+      "title_zh": "不充分特权处理不恰当",
+      "title_en": "Improper Handling of Insufficient Privileges (2.4)"
+    },
+    {
+      "_id": "CWE-275",
+      "title_zh": "权限问题",
+      "title_en": "Permission Issues (2.4)"
+    },
+    {
+      "_id": "CWE-276",
+      "title_zh": "缺省权限不正确",
+      "title_en": "Incorrect Default Permissions (2.4)"
+    },
+    {
+      "_id": "CWE-277",
+      "title_zh": "不安全的继承权限",
+      "title_en": "Insecure Inherited Permissions (2.4)"
+    },
+    {
+      "_id": "CWE-278",
+      "title_zh": "不安全的预留继承权限",
+      "title_en": "Insecure Preserved Inherited Permissions (2.4)"
+    },
+    {
+      "_id": "CWE-279",
+      "title_zh": "不安全的运行时授予权限",
+      "title_en": "Incorrect Execution-Assigned Permissions (2.4)"
+    },
+    {
+      "_id": "CWE-28",
+      "title_zh": "路径遍历：'..\\filedir'",
+      "title_en": "Path Traversal: '..\\filedir' (2.4)"
+    },
+    {
+      "_id": "CWE-280",
+      "title_zh": "不充分权限或特权的处理不恰当",
+      "title_en": "Improper Handling of Insufficient Permissions or Privileges  (2.4)"
+    },
+    {
+      "_id": "CWE-281",
+      "title_zh": "权限预留不恰当",
+      "title_en": "Improper Preservation of Permissions (2.4)"
+    },
+    {
+      "_id": "CWE-282",
+      "title_zh": "属主管理不恰当",
+      "title_en": "Improper Ownership Management (2.4)"
+    },
+    {
+      "_id": "CWE-283",
+      "title_zh": "未经验证的属主",
+      "title_en": "Unverified Ownership (2.4)"
+    },
+    {
+      "_id": "CWE-284",
+      "title_zh": "访问控制不恰当",
+      "title_en": "Improper Access Control (2.4)"
+    },
+    {
+      "_id": "CWE-285",
+      "title_zh": "授权机制不恰当",
+      "title_en": "Improper Authorization (2.4)"
+    },
+    {
+      "_id": "CWE-286",
+      "title_zh": "用户管理不正确",
+      "title_en": "Incorrect User Management (2.4)"
+    },
+    {
+      "_id": "CWE-287",
+      "title_zh": "认证机制不恰当",
+      "title_en": "Improper Authentication (2.4)"
+    },
+    {
+      "_id": "CWE-288",
+      "title_zh": "使用候选路径或通道进行的认证绕过",
+      "title_en": "Authentication Bypass Using an Alternate Path or Channel (2.4)"
+    },
+    {
+      "_id": "CWE-289",
+      "title_zh": "使用候选名称进行的认证绕过",
+      "title_en": "Authentication Bypass by Alternate Name (2.4)"
+    },
+    {
+      "_id": "CWE-29",
+      "title_zh": "路径遍历：'\\..\\filename'",
+      "title_en": "Path Traversal: '\\..\\filename' (2.4)"
+    },
+    {
+      "_id": "CWE-290",
+      "title_zh": "使用欺骗进行的认证绕过",
+      "title_en": "Authentication Bypass by Spoofing (2.4)"
+    },
+    {
+      "_id": "CWE-291",
+      "title_zh": "信任自主报告的IP地址",
+      "title_en": "Trusting Self-reported IP Address (2.4)"
+    },
+    {
+      "_id": "CWE-292",
+      "title_zh": "信任自主报告的DNS名称",
+      "title_en": "Trusting Self-reported DNS Name (2.4)"
+    },
+    {
+      "_id": "CWE-293",
+      "title_zh": "使用Refer域进行认证",
+      "title_en": "Using Referer Field for Authentication (2.4)"
+    },
+    {
+      "_id": "CWE-294",
+      "title_zh": "使用捕获-重放进行的认证绕过",
+      "title_en": "Authentication Bypass by Capture-replay (2.4)"
+    },
+    {
+      "_id": "CWE-295",
+      "title_zh": "证书验证不恰当",
+      "title_en": "Improper Certificate Validation (2.4)"
+    },
+    {
+      "_id": "CWE-296",
+      "title_zh": "证书信任链回溯不恰当",
+      "title_en": "Improper Following of a Certificate's Chain of Trust (2.4)"
+    },
+    {
+      "_id": "CWE-297",
+      "title_zh": "对宿主不匹配的证书验证不恰当",
+      "title_en": "Improper Validation of Certificate with Host Mismatch (2.4)"
+    },
+    {
+      "_id": "CWE-298",
+      "title_zh": "证书过期验证不恰当",
+      "title_en": "Improper Validation of Certificate Expiration (2.4)"
+    },
+    {
+      "_id": "CWE-299",
+      "title_zh": "证书撤销验证不恰当",
+      "title_en": "Improper Check for Certificate Revocation (2.4)"
+    },
+    {
+      "_id": "CWE-3",
+      "title_zh": "特定技术的环境问题",
+      "title_en": "Technology-specific Environment Issues (2.4)"
+    },
+    {
+      "_id": "CWE-30",
+      "title_zh": "路径遍历：'\\dir\\filename'",
+      "title_en": "Path Traversal: '\\dir\\..\\filename' (2.4)"
+    },
+    {
+      "_id": "CWE-300",
+      "title_zh": "通道可被非端点访问（中间人攻击）",
+      "title_en": "Channel Accessible by Non-Endpoint ('Man-in-the-Middle') (2.4)"
+    },
+    {
+      "_id": "CWE-301",
+      "title_zh": "认证协议中的反射攻击",
+      "title_en": "Reflection Attack in an Authentication Protocol (2.4)"
+    },
+    {
+      "_id": "CWE-302",
+      "title_zh": "使用假设不可变数据进行的认证绕过",
+      "title_en": "Authentication Bypass by Assumed-Immutable Data (2.4)"
+    },
+    {
+      "_id": "CWE-303",
+      "title_zh": "认证算法的不正确实现",
+      "title_en": "Incorrect Implementation of Authentication Algorithm (2.4)"
+    },
+    {
+      "_id": "CWE-304",
+      "title_zh": "认证中关键步骤缺失",
+      "title_en": "Missing Critical Step in Authentication (2.4)"
+    },
+    {
+      "_id": "CWE-305",
+      "title_zh": "使用基本弱点进行的认证绕过",
+      "title_en": "Authentication Bypass by Primary Weakness (2.4)"
+    },
+    {
+      "_id": "CWE-306",
+      "title_zh": "关键功能的认证机制缺失",
+      "title_en": "Missing Authentication for Critical Function (2.4)"
+    },
+    {
+      "_id": "CWE-307",
+      "title_zh": "过多认证尝试的限制不恰当",
+      "title_en": "Improper Restriction of Excessive Authentication Attempts (2.4)"
+    },
+    {
+      "_id": "CWE-308",
+      "title_zh": "使用单一因素认证机制",
+      "title_en": "Use of Single-factor Authentication (2.4)"
+    },
+    {
+      "_id": "CWE-309",
+      "title_zh": "使用口令系统作为基本认证机制",
+      "title_en": "Use of Password System for Primary Authentication (2.4)"
+    },
+    {
+      "_id": "CWE-31",
+      "title_zh": "路径遍历：'dir\\..\\..\\filename'",
+      "title_en": "Path Traversal: 'dir\\..\\..\\filename' (2.4)"
+    },
+    {
+      "_id": "CWE-310",
+      "title_zh": "密码学安全问题",
+      "title_en": "Cryptographic Issues (2.4)"
+    },
+    {
+      "_id": "CWE-311",
+      "title_zh": "敏感数据加密缺失",
+      "title_en": "Missing Encryption of Sensitive Data (2.4)"
+    },
+    {
+      "_id": "CWE-312",
+      "title_zh": "敏感数据的明文存储",
+      "title_en": "Cleartext Storage of Sensitive Information (2.4)"
+    },
+    {
+      "_id": "CWE-313",
+      "title_zh": "在文件或磁盘上的明文存储",
+      "title_en": "Plaintext Storage in a File or on Disk (2.4)"
+    },
+    {
+      "_id": "CWE-314",
+      "title_zh": "在注册表中的明文存储",
+      "title_en": "Plaintext Storage in the Registry (2.4)"
+    },
+    {
+      "_id": "CWE-315",
+      "title_zh": "在Cookie中的明文存储",
+      "title_en": "Plaintext Storage in a Cookie (2.4)"
+    },
+    {
+      "_id": "CWE-316",
+      "title_zh": "在内存中的明文存储",
+      "title_en": "Plaintext Storage in Memory (2.4)"
+    },
+    {
+      "_id": "CWE-317",
+      "title_zh": "在GUI中的明文存储",
+      "title_en": "Plaintext Storage in GUI (2.4)"
+    },
+    {
+      "_id": "CWE-318",
+      "title_zh": "在可执行体中的明文存储",
+      "title_en": "Plaintext Storage in Executable (2.4)"
+    },
+    {
+      "_id": "CWE-319",
+      "title_zh": "敏感数据的明文传输",
+      "title_en": "Cleartext Transmission of Sensitive Information (2.4)"
+    },
+    {
+      "_id": "CWE-32",
+      "title_zh": "路径遍历：'...' （三个点号）",
+      "title_en": "Path Traversal: '...' (Triple Dot) (2.4)"
+    },
+    {
+      "_id": "CWE-320",
+      "title_zh": "密钥管理问题",
+      "title_en": "Key Management Errors (2.4)"
+    },
+    {
+      "_id": "CWE-321",
+      "title_zh": "使用硬编码的密码学密钥",
+      "title_en": "Use of Hard-coded Cryptographic Key (2.4)"
+    },
+    {
+      "_id": "CWE-322",
+      "title_zh": "未进行实体认证的密钥交换",
+      "title_en": "Key Exchange without Entity Authentication (2.4)"
+    },
+    {
+      "_id": "CWE-323",
+      "title_zh": "在加密中重用Nonce与密钥对",
+      "title_en": "Reusing a Nonce, Key Pair in Encryption (2.4)"
+    },
+    {
+      "_id": "CWE-324",
+      "title_zh": "使用已过期的密钥",
+      "title_en": "Use of a Key Past its Expiration Date (2.4)"
+    },
+    {
+      "_id": "CWE-325",
+      "title_zh": "缺少必要的密码学步骤",
+      "title_en": "Missing Required Cryptographic Step (2.4)"
+    },
+    {
+      "_id": "CWE-326",
+      "title_zh": "不充分的加密强度",
+      "title_en": "Inadequate Encryption Strength (2.4)"
+    },
+    {
+      "_id": "CWE-327",
+      "title_zh": "使用已被攻破或存在风险的密码学算法",
+      "title_en": "Use of a Broken or Risky Cryptographic Algorithm (2.4)"
+    },
+    {
+      "_id": "CWE-328",
+      "title_zh": "可逆的单向哈希",
+      "title_en": "Reversible One-Way Hash (2.4)"
+    },
+    {
+      "_id": "CWE-329",
+      "title_zh": "在CBC加密模式中未使用随机化IV向量",
+      "title_en": "Not Using a Random IV with CBC Mode (2.4)"
+    },
+    {
+      "_id": "CWE-33",
+      "title_zh": "路径遍历：'....' （多个点号）",
+      "title_en": "Path Traversal: '....' (Multiple Dot) (2.4)"
+    },
+    {
+      "_id": "CWE-330",
+      "title_zh": "使用不充分的随机数",
+      "title_en": "Use of Insufficiently Random Values (2.4)"
+    },
+    {
+      "_id": "CWE-331",
+      "title_zh": "信息熵不充分",
+      "title_en": "Insufficient Entropy (2.4)"
+    },
+    {
+      "_id": "CWE-332",
+      "title_zh": "PRNG中信息熵不充分",
+      "title_en": "Insufficient Entropy in PRNG (2.4)"
+    },
+    {
+      "_id": "CWE-333",
+      "title_zh": "TRNG不充分信息熵的处理不恰当",
+      "title_en": "Improper Handling of Insufficient Entropy in TRNG (2.4)"
+    },
+    {
+      "_id": "CWE-334",
+      "title_zh": "随机数的空间太小",
+      "title_en": "Small Space of Random Values (2.4)"
+    },
+    {
+      "_id": "CWE-335",
+      "title_zh": "PRNG种子错误",
+      "title_en": "PRNG Seed Error (2.4)"
+    },
+    {
+      "_id": "CWE-336",
+      "title_zh": "PRNG中使用相同种子",
+      "title_en": "Same Seed in PRNG (2.4)"
+    },
+    {
+      "_id": "CWE-337",
+      "title_zh": "PRNG中使用可预测种子",
+      "title_en": "Predictable Seed in PRNG (2.4)"
+    },
+    {
+      "_id": "CWE-338",
+      "title_zh": "使用具有密码学弱点缺陷的PRNG",
+      "title_en": "Use of Cryptographically Weak PRNG (2.4)"
+    },
+    {
+      "_id": "CWE-339",
+      "title_zh": "PRNG中的种子空间太小",
+      "title_en": "Small Seed Space in PRNG (2.4)"
+    },
+    {
+      "_id": "CWE-34",
+      "title_zh": "路径遍历：'....//'",
+      "title_en": "Path Traversal: '....//' (2.4)"
+    },
+    {
+      "_id": "CWE-340",
+      "title_zh": "可预测问题",
+      "title_en": "Predictability Problems (2.4)"
+    },
+    {
+      "_id": "CWE-341",
+      "title_zh": "从可观察状态的可预测",
+      "title_en": "Predictable from Observable State (2.4)"
+    },
+    {
+      "_id": "CWE-342",
+      "title_zh": "从先前值可预测准确值",
+      "title_en": "Predictable Exact Value from Previous Values (2.4)"
+    },
+    {
+      "_id": "CWE-343",
+      "title_zh": "从先前值可预测取值范围",
+      "title_en": "Predictable Value Range from Previous Values (2.4)"
+    },
+    {
+      "_id": "CWE-344",
+      "title_zh": "在动态变化上下文中使用不变值",
+      "title_en": "Use of Invariant Value in Dynamically Changing Context (2.4)"
+    },
+    {
+      "_id": "CWE-345",
+      "title_zh": "对数据真实性的验证不充分",
+      "title_en": "Insufficient Verification of Data Authenticity (2.4)"
+    },
+    {
+      "_id": "CWE-346",
+      "title_zh": "源验证错误",
+      "title_en": "Origin Validation Error (2.4)"
+    },
+    {
+      "_id": "CWE-347",
+      "title_zh": "密码学签名的验证不恰当",
+      "title_en": "Improper Verification of Cryptographic Signature (2.4)"
+    },
+    {
+      "_id": "CWE-348",
+      "title_zh": "使用不可信的源",
+      "title_en": "Use of Less Trusted Source (2.4)"
+    },
+    {
+      "_id": "CWE-349",
+      "title_zh": "在可信数据中接受外来的不可信数据",
+      "title_en": "Acceptance of Extraneous Untrusted Data With Trusted Data (2.4)"
+    },
+    {
+      "_id": "CWE-35",
+      "title_zh": "路径遍历：'.../...//'",
+      "title_en": "Path Traversal: '.../...//' (2.4)"
+    },
+    {
+      "_id": "CWE-350",
+      "title_zh": "不恰当地信任反向DNS",
+      "title_en": "Improperly Trusted Reverse DNS (2.4)"
+    },
+    {
+      "_id": "CWE-351",
+      "title_zh": "不充分的类型区分",
+      "title_en": "Insufficient Type Distinction (2.4)"
+    },
+    {
+      "_id": "CWE-352",
+      "title_zh": "跨站请求伪造（CSRF）",
+      "title_en": "Cross-Site Request Forgery (CSRF) (2.4)"
+    },
+    {
+      "_id": "CWE-353",
+      "title_zh": "缺失完整性检查支持",
+      "title_en": "Missing Support for Integrity Check (2.4)"
+    },
+    {
+      "_id": "CWE-354",
+      "title_zh": "完整性检查值验证不恰当",
+      "title_en": "Improper Validation of Integrity Check Value (2.4)"
+    },
+    {
+      "_id": "CWE-355",
+      "title_zh": "用户接口安全问题",
+      "title_en": "User Interface Security Issues (2.4)"
+    },
+    {
+      "_id": "CWE-356",
+      "title_zh": "产品UI接口未警示用户不安全动作",
+      "title_en": "Product UI does not Warn User of Unsafe Actions (2.4)"
+    },
+    {
+      "_id": "CWE-357",
+      "title_zh": "对危险操作的UI警示不充分",
+      "title_en": "Insufficient UI Warning of Dangerous Operations (2.4)"
+    },
+    {
+      "_id": "CWE-358",
+      "title_zh": "不恰当实现的标准安全检查",
+      "title_en": "Improperly Implemented Security Check for Standard (2.4)"
+    },
+    {
+      "_id": "CWE-359",
+      "title_zh": "侵犯隐私",
+      "title_en": "Privacy Violation (2.4)"
+    },
+    {
+      "_id": "CWE-36",
+      "title_zh": "绝对路径遍历",
+      "title_en": "Absolute Path Traversal (2.4)"
+    },
+    {
+      "_id": "CWE-360",
+      "title_zh": "信任系统事件数据",
+      "title_en": "Trust of System Event Data (2.4)"
+    },
+    {
+      "_id": "CWE-361",
+      "title_zh": "时间和状态",
+      "title_en": "Time and State (2.4)"
+    },
+    {
+      "_id": "CWE-362",
+      "title_zh": "使用共享资源的并发执行不恰当同步问题（竞争条件）",
+      "title_en": "Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition') (2.4)"
+    },
+    {
+      "_id": "CWE-363",
+      "title_zh": "允许符号链接跟随的竞争条件",
+      "title_en": "Race Condition Enabling Link Following (2.4)"
+    },
+    {
+      "_id": "CWE-364",
+      "title_zh": "信号处理例程中的竞争条件",
+      "title_en": "Signal Handler Race Condition (2.4)"
+    },
+    {
+      "_id": "CWE-365",
+      "title_zh": "Switch语句中的竞争条件",
+      "title_en": "Race Condition in Switch (2.4)"
+    },
+    {
+      "_id": "CWE-366",
+      "title_zh": "单线程内的竞争条件",
+      "title_en": "Race Condition within a Thread (2.4)"
+    },
+    {
+      "_id": "CWE-367",
+      "title_zh": "检查时间与使用时间(TOCTOU)的竞争条件",
+      "title_en": "Time-of-check Time-of-use (TOCTOU) Race Condition (2.4)"
+    },
+    {
+      "_id": "CWE-368",
+      "title_zh": "上下文切换时的竞争条件",
+      "title_en": "Context Switching Race Condition (2.4)"
+    },
+    {
+      "_id": "CWE-369",
+      "title_zh": "除零错误",
+      "title_en": "Divide By Zero (2.4)"
+    },
+    {
+      "_id": "CWE-37",
+      "title_zh": "路径遍历：'/absolute/pathname/here'",
+      "title_en": "Path Traversal: '/absolute/pathname/here' (2.4)"
+    },
+    {
+      "_id": "CWE-370",
+      "title_zh": "在初始检查后缺失对证书撤销的验证",
+      "title_en": "Missing Check for Certificate Revocation after Initial Check (2.4)"
+    },
+    {
+      "_id": "CWE-371",
+      "title_zh": "状态安全问题",
+      "title_en": "State Issues (2.4)"
+    },
+    {
+      "_id": "CWE-372",
+      "title_zh": "不完整的内部状态区分",
+      "title_en": "Incomplete Internal State Distinction (2.4)"
+    },
+    {
+      "_id": "CWE-373",
+      "title_zh": "废弃：状态同步错误",
+      "title_en": "DEPRECATED: State Synchronization Error (2.4)"
+    },
+    {
+      "_id": "CWE-374",
+      "title_zh": "传递不可变的对象给非可信方法",
+      "title_en": "Passing Mutable Objects to an Untrusted Method (2.4)"
+    },
+    {
+      "_id": "CWE-375",
+      "title_zh": "返回不可变的对象给非可信调用者",
+      "title_en": "Returning a Mutable Object to an Untrusted Caller (2.4)"
+    },
+    {
+      "_id": "CWE-376",
+      "title_zh": "临时文件问题",
+      "title_en": "Temporary File Issues (2.4)"
+    },
+    {
+      "_id": "CWE-377",
+      "title_zh": "不安全的临时文件",
+      "title_en": "Insecure Temporary File (2.4)"
+    },
+    {
+      "_id": "CWE-378",
+      "title_zh": "创建拥有不安全权限的临时文件",
+      "title_en": "Creation of Temporary File With Insecure Permissions (2.4)"
+    },
+    {
+      "_id": "CWE-379",
+      "title_zh": "在具有不安全权限的目录中创建临时文件",
+      "title_en": "Creation of Temporary File in Directory with Incorrect Permissions (2.4)"
+    },
+    {
+      "_id": "CWE-38",
+      "title_zh": "路径遍历：'\\absolute\\pathname\\here'",
+      "title_en": "Path Traversal: '\\absolute\\pathname\\here' (2.4)"
+    },
+    {
+      "_id": "CWE-380",
+      "title_zh": "特定技术的时间和状态问题",
+      "title_en": "Technology-Specific Time and State Issues (2.4)"
+    },
+    {
+      "_id": "CWE-381",
+      "title_zh": "J2EE时间和状态问题",
+      "title_en": "J2EE Time and State Issues (2.4)"
+    },
+    {
+      "_id": "CWE-382",
+      "title_zh": "J2EE不安全实践：使用System.exit()",
+      "title_en": "J2EE Bad Practices: Use of System.exit() (2.4)"
+    },
+    {
+      "_id": "CWE-383",
+      "title_zh": "J2EE不安全实践：直接使用线程",
+      "title_en": "J2EE Bad Practices: Direct Use of Threads (2.4)"
+    },
+    {
+      "_id": "CWE-384",
+      "title_zh": "会话固定",
+      "title_en": "Session Fixation (2.4)"
+    },
+    {
+      "_id": "CWE-385",
+      "title_zh": "隐蔽时间通道",
+      "title_en": "Covert Timing Channel (2.4)"
+    },
+    {
+      "_id": "CWE-386",
+      "title_zh": "符号名称未能映射到正确对象",
+      "title_en": "Symbolic Name not Mapping to Correct Object (2.4)"
+    },
+    {
+      "_id": "CWE-387",
+      "title_zh": "信号错误",
+      "title_en": "Signal Errors (2.4)"
+    },
+    {
+      "_id": "CWE-388",
+      "title_zh": "错误处理",
+      "title_en": "Error Handling (2.4)"
+    },
+    {
+      "_id": "CWE-389",
+      "title_zh": "错误条件，返回值与状态编码",
+      "title_en": "Error Conditions, Return Values, Status Codes (2.4)"
+    },
+    {
+      "_id": "CWE-39",
+      "title_zh": "路径遍历：'C:dirname'",
+      "title_en": "Path Traversal: 'C:dirname' (2.4)"
+    },
+    {
+      "_id": "CWE-390",
+      "title_zh": "未有动作错误条件的检测",
+      "title_en": "Detection of Error Condition Without Action (2.4)"
+    },
+    {
+      "_id": "CWE-391",
+      "title_zh": "未经检查的错误条件",
+      "title_en": "Unchecked Error Condition (2.4)"
+    },
+    {
+      "_id": "CWE-392",
+      "title_zh": "错误条件报告缺失",
+      "title_en": "Missing Report of Error Condition (2.4)"
+    },
+    {
+      "_id": "CWE-393",
+      "title_zh": "返回错误的状态编码",
+      "title_en": "Return of Wrong Status Code (2.4)"
+    },
+    {
+      "_id": "CWE-394",
+      "title_zh": "未预期的状态编码或返回值",
+      "title_en": "Unexpected Status Code or Return Value (2.4)"
+    },
+    {
+      "_id": "CWE-395",
+      "title_zh": "使用NullPointerException捕捉来检测空指针解引用",
+      "title_en": "Use of NullPointerException Catch to Detect NULL Pointer Dereference (2.4)"
+    },
+    {
+      "_id": "CWE-396",
+      "title_zh": "对通用异常声明Catch语句",
+      "title_en": "Declaration of Catch for Generic Exception (2.4)"
+    },
+    {
+      "_id": "CWE-397",
+      "title_zh": "对通用异常声明Throws语句",
+      "title_en": "Declaration of Throws for Generic Exception (2.4)"
+    },
+    {
+      "_id": "CWE-398",
+      "title_zh": "代码质量差的迹象",
+      "title_en": "Indicator of Poor Code Quality (2.4)"
+    },
+    {
+      "_id": "CWE-399",
+      "title_zh": "资源管理错误",
+      "title_en": "Resource Management Errors (2.4)"
+    },
+    {
+      "_id": "CWE-4",
+      "title_zh": "J2EE环境问题",
+      "title_en": "J2EE Environment Issues (2.4)"
+    },
+    {
+      "_id": "CWE-40",
+      "title_zh": "路径遍历：'\\\\UNC\\share\\name\\'(WindowsUNC共享)",
+      "title_en": "Path Traversal: '\\\\UNC\\share\\name\\' (Windows UNC Share) (2.4)"
+    },
+    {
+      "_id": "CWE-400",
+      "title_zh": "未加控制的资源消耗（资源穷尽）",
+      "title_en": "Uncontrolled Resource Consumption ('Resource Exhaustion') (2.4)"
+    },
+    {
+      "_id": "CWE-401",
+      "title_zh": "在移除最后引用时对内存的释放不恰当（内存泄露）",
+      "title_en": "Improper Release of Memory Before Removing Last Reference ('Memory Leak') (2.4)"
+    },
+    {
+      "_id": "CWE-402",
+      "title_zh": "将私有的资源传输到一个新的空间（资源泄露）",
+      "title_en": "Transmission of Private Resources into a New Sphere ('Resource Leak') (2.4)"
+    },
+    {
+      "_id": "CWE-403",
+      "title_zh": "将文件描述符暴露给不受控制的范围（文件描述符泄露）",
+      "title_en": "Exposure of File Descriptor to Unintended Control Sphere ('File Descriptor Leak') (2.4)"
+    },
+    {
+      "_id": "CWE-404",
+      "title_zh": "不恰当的资源关闭或释放",
+      "title_en": "Improper Resource Shutdown or Release (2.4)"
+    },
+    {
+      "_id": "CWE-405",
+      "title_zh": "不对称的资源消耗（放大攻击）",
+      "title_en": "Asymmetric Resource Consumption (Amplification) (2.4)"
+    },
+    {
+      "_id": "CWE-406",
+      "title_zh": "对网络消息容量的控制不充分（网络放大攻击）",
+      "title_en": "Insufficient Control of Network Message Volume (Network Amplification) (2.4)"
+    },
+    {
+      "_id": "CWE-407",
+      "title_zh": "算法复杂性",
+      "title_en": "Algorithmic Complexity (2.4)"
+    },
+    {
+      "_id": "CWE-408",
+      "title_zh": "不正确的行为次序：早期放大攻击",
+      "title_en": "Incorrect Behavior Order: Early Amplification (2.4)"
+    },
+    {
+      "_id": "CWE-409",
+      "title_zh": "对高度压缩数据的处理不恰当（数据放大攻击）",
+      "title_en": "Improper Handling of Highly Compressed Data (Data Amplification) (2.4)"
+    },
+    {
+      "_id": "CWE-41",
+      "title_zh": "对路径等价的解析不恰当",
+      "title_en": "Improper Resolution of Path Equivalence (2.4)"
+    },
+    {
+      "_id": "CWE-410",
+      "title_zh": "不充分的资源池",
+      "title_en": "Insufficient Resource Pool (2.4)"
+    },
+    {
+      "_id": "CWE-411",
+      "title_zh": "资源加锁问题",
+      "title_en": "Resource Locking Problems (2.4)"
+    },
+    {
+      "_id": "CWE-412",
+      "title_zh": "未加限制的外部可访问锁",
+      "title_en": "Unrestricted Externally Accessible Lock (2.4)"
+    },
+    {
+      "_id": "CWE-413",
+      "title_zh": "资源加锁不恰当",
+      "title_en": "Improper Resource Locking (2.4)"
+    },
+    {
+      "_id": "CWE-414",
+      "title_zh": "加锁检查缺失",
+      "title_en": "Missing Lock Check (2.4)"
+    },
+    {
+      "_id": "CWE-415",
+      "title_zh": "双重释放",
+      "title_en": "Double Free (2.4)"
+    },
+    {
+      "_id": "CWE-416",
+      "title_zh": "释放后使用",
+      "title_en": "Use After Free (2.4)"
+    },
+    {
+      "_id": "CWE-417",
+      "title_zh": "通道和路径错误",
+      "title_en": "Channel and Path Errors (2.4)"
+    },
+    {
+      "_id": "CWE-418",
+      "title_zh": "通道错误",
+      "title_en": "Channel Errors (2.4)"
+    },
+    {
+      "_id": "CWE-419",
+      "title_zh": "未保护的主要通道",
+      "title_en": "Unprotected Primary Channel (2.4)"
+    },
+    {
+      "_id": "CWE-42",
+      "title_zh": "路径等价：'filename.' (尾部点号)",
+      "title_en": "Path Equivalence: 'filename.' (Trailing Dot) (2.4)"
+    },
+    {
+      "_id": "CWE-420",
+      "title_zh": "未保护的候选通道",
+      "title_en": "Unprotected Alternate Channel (2.4)"
+    },
+    {
+      "_id": "CWE-421",
+      "title_zh": "当访问候选通道时的竞争条件",
+      "title_en": "Race Condition During Access to Alternate Channel (2.4)"
+    },
+    {
+      "_id": "CWE-422",
+      "title_zh": "未保护的Windows消息通道（Shatter）",
+      "title_en": "Unprotected Windows Messaging Channel ('Shatter') (2.4)"
+    },
+    {
+      "_id": "CWE-423",
+      "title_zh": "废弃（重复）：可信通道被代理",
+      "title_en": "DEPRECATED (Duplicate): Proxied Trusted Channel (2.4)"
+    },
+    {
+      "_id": "CWE-424",
+      "title_zh": "对候选路径的不恰当保护",
+      "title_en": "Improper Protection of Alternate Path (2.4)"
+    },
+    {
+      "_id": "CWE-425",
+      "title_zh": "直接请求（强制性浏览）",
+      "title_en": "Direct Request ('Forced Browsing') (2.4)"
+    },
+    {
+      "_id": "CWE-426",
+      "title_zh": "不可信的搜索路径",
+      "title_en": "Untrusted Search Path (2.4)"
+    },
+    {
+      "_id": "CWE-427",
+      "title_zh": "对搜索路径元素未加控制",
+      "title_en": "Uncontrolled Search Path Element (2.4)"
+    },
+    {
+      "_id": "CWE-428",
+      "title_zh": "未经引用的搜索路径或元素",
+      "title_en": "Unquoted Search Path or Element (2.4)"
+    },
+    {
+      "_id": "CWE-429",
+      "title_zh": "句柄错误",
+      "title_en": "Handler Errors (2.4)"
+    },
+    {
+      "_id": "CWE-43",
+      "title_zh": "路径等价：'filename....' （多个尾部的点号）",
+      "title_en": "Path Equivalence: 'filename....' (Multiple Trailing Dot) (2.4)"
+    },
+    {
+      "_id": "CWE-430",
+      "title_zh": "错误句柄的实施",
+      "title_en": "Deployment of Wrong Handler (2.4)"
+    },
+    {
+      "_id": "CWE-431",
+      "title_zh": "句柄缺失",
+      "title_en": "Missing Handler (2.4)"
+    },
+    {
+      "_id": "CWE-432",
+      "title_zh": "在敏感操作时危险信号处理例程未被禁用",
+      "title_en": "Dangerous Signal Handler not Disabled During Sensitive Operations (2.4)"
+    },
+    {
+      "_id": "CWE-433",
+      "title_zh": "未加解析的原始Web内容分发",
+      "title_en": "Unparsed Raw Web Content Delivery (2.4)"
+    },
+    {
+      "_id": "CWE-434",
+      "title_zh": "危险类型文件的不加限制上传",
+      "title_en": "Unrestricted Upload of File with Dangerous Type (2.4)"
+    },
+    {
+      "_id": "CWE-435",
+      "title_zh": "交互错误",
+      "title_en": "Interaction Error (2.4)"
+    },
+    {
+      "_id": "CWE-436",
+      "title_zh": "解释冲突",
+      "title_en": "Interpretation Conflict (2.4)"
+    },
+    {
+      "_id": "CWE-437",
+      "title_zh": "端点特性的不完整模型",
+      "title_en": "Incomplete Model of Endpoint Features (2.4)"
+    },
+    {
+      "_id": "CWE-438",
+      "title_zh": "行为安全问题",
+      "title_en": "Behavioral Problems (2.4)"
+    },
+    {
+      "_id": "CWE-439",
+      "title_zh": "新版本或环境中的行为变化",
+      "title_en": "Behavioral Change in New Version or Environment (2.4)"
+    },
+    {
+      "_id": "CWE-44",
+      "title_zh": "路径等价：'file.name' (内部点号)",
+      "title_en": "Path Equivalence: 'file.name' (Internal Dot) (2.4)"
+    },
+    {
+      "_id": "CWE-440",
+      "title_zh": "预期行为违背",
+      "title_en": "Expected Behavior Violation (2.4)"
+    },
+    {
+      "_id": "CWE-441",
+      "title_zh": "未有动机的代理或中间人（混淆代理）",
+      "title_en": "Unintended Proxy or Intermediary ('Confused Deputy') (2.4)"
+    },
+    {
+      "_id": "CWE-442",
+      "title_zh": "Web安全问题",
+      "title_en": "Web Problems (2.4)"
+    },
+    {
+      "_id": "CWE-443",
+      "title_zh": "废弃（重复）：HTTP响应分割",
+      "title_en": "DEPRECATED (Duplicate): HTTP response splitting (2.4)"
+    },
+    {
+      "_id": "CWE-444",
+      "title_zh": "HTTP请求的解释不一致性（HTTP请求私运）",
+      "title_en": "Inconsistent Interpretation of HTTP Requests ('HTTP Request Smuggling') (2.4)"
+    },
+    {
+      "_id": "CWE-445",
+      "title_zh": "用户接口错误",
+      "title_en": "User Interface Errors (2.4)"
+    },
+    {
+      "_id": "CWE-446",
+      "title_zh": "安全特性的UI矛盾",
+      "title_en": "UI Discrepancy for Security Feature (2.4)"
+    },
+    {
+      "_id": "CWE-447",
+      "title_zh": "在UI中的未实现或未支持特性",
+      "title_en": "Unimplemented or Unsupported Feature in UI (2.4)"
+    },
+    {
+      "_id": "CWE-448",
+      "title_zh": "UI上的废弃特性",
+      "title_en": "Obsolete Feature in UI (2.4)"
+    },
+    {
+      "_id": "CWE-449",
+      "title_zh": "UI执行错误动作",
+      "title_en": "The UI Performs the Wrong Action (2.4)"
+    },
+    {
+      "_id": "CWE-45",
+      "title_zh": "路径等价：'file...name' （多个内部的点号）",
+      "title_en": "Path Equivalence: 'file...name' (Multiple Internal Dot) (2.4)"
+    },
+    {
+      "_id": "CWE-450",
+      "title_zh": "UI输入的多重解释",
+      "title_en": "Multiple Interpretations of UI Input (2.4)"
+    },
+    {
+      "_id": "CWE-451",
+      "title_zh": "关键信息的UI错误表达",
+      "title_en": "UI Misrepresentation of Critical Information (2.4)"
+    },
+    {
+      "_id": "CWE-452",
+      "title_zh": "初始化与清理环节错误",
+      "title_en": "Initialization and Cleanup Errors (2.4)"
+    },
+    {
+      "_id": "CWE-453",
+      "title_zh": "不安全的缺省变量初始化",
+      "title_en": "Insecure Default Variable Initialization (2.4)"
+    },
+    {
+      "_id": "CWE-454",
+      "title_zh": "可信任变量或数据存储的外部初始化",
+      "title_en": "External Initialization of Trusted Variables or Data Stores (2.4)"
+    },
+    {
+      "_id": "CWE-455",
+      "title_zh": "初始化失效后的不存在变量",
+      "title_en": "Non-exit on Failed Initialization (2.4)"
+    },
+    {
+      "_id": "CWE-456",
+      "title_zh": "变量未经初始化",
+      "title_en": "Missing Initialization of a Variable (2.4)"
+    },
+    {
+      "_id": "CWE-457",
+      "title_zh": "使用未经初始化的变量",
+      "title_en": "Use of Uninitialized Variable (2.4)"
+    },
+    {
+      "_id": "CWE-458",
+      "title_zh": "废弃：初始化不正确",
+      "title_en": "DEPRECATED: Incorrect Initialization (2.4)"
+    },
+    {
+      "_id": "CWE-459",
+      "title_zh": "清理环节不完整",
+      "title_en": "Incomplete Cleanup (2.4)"
+    },
+    {
+      "_id": "CWE-46",
+      "title_zh": "路径等价：'filename'(结尾空格)",
+      "title_en": "Path Equivalence: 'filename ' (Trailing Space) (2.4)"
+    },
+    {
+      "_id": "CWE-460",
+      "title_zh": "抛出异常的清理不恰当",
+      "title_en": "Improper Cleanup on Thrown Exception (2.4)"
+    },
+    {
+      "_id": "CWE-461",
+      "title_zh": "数据结构安全问题",
+      "title_en": "Data Structure Issues (2.4)"
+    },
+    {
+      "_id": "CWE-462",
+      "title_zh": "在关联列表中具有重复Key",
+      "title_en": "Duplicate Key in Associative List (Alist) (2.4)"
+    },
+    {
+      "_id": "CWE-463",
+      "title_zh": "对数据结构哨兵域的删除",
+      "title_en": "Deletion of Data Structure Sentinel (2.4)"
+    },
+    {
+      "_id": "CWE-464",
+      "title_zh": "对数据结构哨兵域的增加",
+      "title_en": "Addition of Data Structure Sentinel (2.4)"
+    },
+    {
+      "_id": "CWE-465",
+      "title_zh": "指针安全问题",
+      "title_en": "Pointer Issues (2.4)"
+    },
+    {
+      "_id": "CWE-466",
+      "title_zh": "在预期范围外返回指针值",
+      "title_en": "Return of Pointer Value Outside of Expected Range (2.4)"
+    },
+    {
+      "_id": "CWE-467",
+      "title_zh": "在指针类型上使用sizeof()",
+      "title_en": "Use of sizeof() on a Pointer Type (2.4)"
+    },
+    {
+      "_id": "CWE-468",
+      "title_zh": "不正确的指针放大",
+      "title_en": "Incorrect Pointer Scaling (2.4)"
+    },
+    {
+      "_id": "CWE-469",
+      "title_zh": "使用指针的减法来确定大小",
+      "title_en": "Use of Pointer Subtraction to Determine Size (2.4)"
+    },
+    {
+      "_id": "CWE-47",
+      "title_zh": "路径等价：'filename'(开头空格)",
+      "title_en": "Path Equivalence: ' filename' (Leading Space) (2.4)"
+    },
+    {
+      "_id": "CWE-470",
+      "title_zh": "使用外部可控制的输入来选择类或代码（不安全的反射）",
+      "title_en": "Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection') (2.4)"
+    },
+    {
+      "_id": "CWE-471",
+      "title_zh": "对假设不可变数据的修改（MAID）",
+      "title_en": "Modification of Assumed-Immutable Data (MAID) (2.4)"
+    },
+    {
+      "_id": "CWE-472",
+      "title_zh": "对假设不可变Web参数的外部可控制",
+      "title_en": "External Control of Assumed-Immutable Web Parameter (2.4)"
+    },
+    {
+      "_id": "CWE-473",
+      "title_zh": "PHP参数外部修改",
+      "title_en": "PHP External Variable Modification (2.4)"
+    },
+    {
+      "_id": "CWE-474",
+      "title_zh": "使用具有不一致性实现的函数",
+      "title_en": "Use of Function with Inconsistent Implementations (2.4)"
+    },
+    {
+      "_id": "CWE-475",
+      "title_zh": "从输入到API的未定义行为",
+      "title_en": "Undefined Behavior for Input to API (2.4)"
+    },
+    {
+      "_id": "CWE-476",
+      "title_zh": "空指针解引用",
+      "title_en": "NULL Pointer Dereference (2.4)"
+    },
+    {
+      "_id": "CWE-477",
+      "title_zh": "对废弃函数的使用",
+      "title_en": "Use of Obsolete Functions (2.4)"
+    },
+    {
+      "_id": "CWE-478",
+      "title_zh": "在Switch语句中缺失缺省条件",
+      "title_en": "Missing Default Case in Switch Statement (2.4)"
+    },
+    {
+      "_id": "CWE-479",
+      "title_zh": "信号处理例程中使用不可再入的函数",
+      "title_en": "Signal Handler Use of a Non-reentrant Function (2.4)"
+    },
+    {
+      "_id": "CWE-48",
+      "title_zh": "路径等价：'filename'(内部空格)",
+      "title_en": "Path Equivalence: 'file name' (Internal Whitespace) (2.4)"
+    },
+    {
+      "_id": "CWE-480",
+      "title_zh": "使用操作符不正确",
+      "title_en": "Use of Incorrect Operator (2.4)"
+    },
+    {
+      "_id": "CWE-481",
+      "title_zh": "错误将比较符号写成赋值符号",
+      "title_en": "Assigning instead of Comparing (2.4)"
+    },
+    {
+      "_id": "CWE-482",
+      "title_zh": "错误将赋值符号写成比较符号",
+      "title_en": "Comparing instead of Assigning (2.4)"
+    },
+    {
+      "_id": "CWE-483",
+      "title_zh": "不正确的代码块分界",
+      "title_en": "Incorrect Block Delimitation (2.4)"
+    },
+    {
+      "_id": "CWE-484",
+      "title_zh": "在Switch语句中省略Break语句",
+      "title_en": "Omitted Break Statement in Switch (2.4)"
+    },
+    {
+      "_id": "CWE-485",
+      "title_zh": "不充分的封装隔离",
+      "title_en": "Insufficient Encapsulation (2.4)"
+    },
+    {
+      "_id": "CWE-486",
+      "title_zh": "使用名称来比较对象",
+      "title_en": "Comparison of Classes by Name (2.4)"
+    },
+    {
+      "_id": "CWE-487",
+      "title_zh": "依赖包一级的范围",
+      "title_en": "Reliance on Package-level Scope (2.4)"
+    },
+    {
+      "_id": "CWE-488",
+      "title_zh": "对错误会话暴露数据元素",
+      "title_en": "Exposure of Data Element to Wrong Session (2.4)"
+    },
+    {
+      "_id": "CWE-489",
+      "title_zh": "遗留的调试代码",
+      "title_en": "Leftover Debug Code (2.4)"
+    },
+    {
+      "_id": "CWE-49",
+      "title_zh": "路径等价：'filename/'(尾部斜杠)",
+      "title_en": "Path Equivalence: 'filename/' (Trailing Slash) (2.4)"
+    },
+    {
+      "_id": "CWE-490",
+      "title_zh": "移动代码安全问题",
+      "title_en": "Mobile Code Issues (2.4)"
+    },
+    {
+      "_id": "CWE-491",
+      "title_zh": "公开的可克隆方法（对象劫持）",
+      "title_en": "Public cloneable() Method Without Final ('Object Hijack') (2.4)"
+    },
+    {
+      "_id": "CWE-492",
+      "title_zh": "使用包含敏感数据的内部对象",
+      "title_en": "Use of Inner Class Containing Sensitive Data (2.4)"
+    },
+    {
+      "_id": "CWE-493",
+      "title_zh": "缺少Final Modifier的关键公开变量",
+      "title_en": "Critical Public Variable Without Final Modifier (2.4)"
+    },
+    {
+      "_id": "CWE-494",
+      "title_zh": "下载代码缺少完整性检查",
+      "title_en": "Download of Code Without Integrity Check (2.4)"
+    },
+    {
+      "_id": "CWE-495",
+      "title_zh": "从公开方法中返回私有的数组类型数据域",
+      "title_en": "Private Array-Typed Field Returned From A Public Method (2.4)"
+    },
+    {
+      "_id": "CWE-496",
+      "title_zh": "公开数据赋值给私有的数组类型数据域",
+      "title_en": "Public Data Assigned to Private Array-Typed Field (2.4)"
+    },
+    {
+      "_id": "CWE-497",
+      "title_zh": "将系统数据暴露到未授权控制的范围",
+      "title_en": "Exposure of System Data to an Unauthorized Control Sphere (2.4)"
+    },
+    {
+      "_id": "CWE-498",
+      "title_zh": "包含敏感信息的可克隆类",
+      "title_en": "Cloneable Class Containing Sensitive Information (2.4)"
+    },
+    {
+      "_id": "CWE-499",
+      "title_zh": "可序列化的类中包含敏感信息",
+      "title_en": "Serializable Class Containing Sensitive Data (2.4)"
+    },
+    {
+      "_id": "CWE-5",
+      "title_zh": "J2EE误配置：未经加密的数据传输",
+      "title_en": "J2EE Misconfiguration: Data Transmission Without Encryption (2.4)"
+    },
+    {
+      "_id": "CWE-50",
+      "title_zh": "路径等价：'//multiple/leading/slash'",
+      "title_en": "Path Equivalence: '//multiple/leading/slash' (2.4)"
+    },
+    {
+      "_id": "CWE-500",
+      "title_zh": "公开静态字段没有标记为Final",
+      "title_en": "Public Static Field Not Marked Final (2.4)"
+    },
+    {
+      "_id": "CWE-501",
+      "title_zh": "违背信任边界",
+      "title_en": "Trust Boundary Violation (2.4)"
+    },
+    {
+      "_id": "CWE-502",
+      "title_zh": "可信数据的反序列化",
+      "title_en": "Deserialization of Untrusted Data (2.4)"
+    },
+    {
+      "_id": "CWE-503",
+      "title_zh": "字节/对象代码",
+      "title_en": "Byte/Object Code (2.4)"
+    },
+    {
+      "_id": "CWE-504",
+      "title_zh": "动机/意图",
+      "title_en": "Motivation/Intent (2.4)"
+    },
+    {
+      "_id": "CWE-505",
+      "title_zh": "故意引入的安全弱点",
+      "title_en": "Intentionally Introduced Weakness (2.4)"
+    },
+    {
+      "_id": "CWE-506",
+      "title_zh": "内嵌的恶意代码",
+      "title_en": "Embedded Malicious Code (2.4)"
+    },
+    {
+      "_id": "CWE-507",
+      "title_zh": "特洛伊木马",
+      "title_en": "Trojan Horse (2.4)"
+    },
+    {
+      "_id": "CWE-508",
+      "title_zh": "非传播性的恶意代码",
+      "title_en": "Non-Replicating Malicious Code (2.4)"
+    },
+    {
+      "_id": "CWE-509",
+      "title_zh": "具传播性的恶意代码（病毒或蠕虫）",
+      "title_en": "Replicating Malicious Code (Virus or Worm) (2.4)"
+    },
+    {
+      "_id": "CWE-51",
+      "title_zh": "路径等价：'/multiple//internal/slash'",
+      "title_en": "Path Equivalence: '/multiple//internal/slash' (2.4)"
+    },
+    {
+      "_id": "CWE-510",
+      "title_zh": "后门",
+      "title_en": "Trapdoor (2.4)"
+    },
+    {
+      "_id": "CWE-511",
+      "title_zh": "逻辑/时间炸弹",
+      "title_en": "Logic/Time Bomb (2.4)"
+    },
+    {
+      "_id": "CWE-512",
+      "title_zh": "间谍软件",
+      "title_en": "Spyware (2.4)"
+    },
+    {
+      "_id": "CWE-513",
+      "title_zh": "故意引入的非恶意安全弱点",
+      "title_en": "Intentionally Introduced Nonmalicious Weakness (2.4)"
+    },
+    {
+      "_id": "CWE-514",
+      "title_zh": "隐蔽通道",
+      "title_en": "Covert Channel (2.4)"
+    },
+    {
+      "_id": "CWE-515",
+      "title_zh": "隐蔽存储通道",
+      "title_en": "Covert Storage Channel (2.4)"
+    },
+    {
+      "_id": "CWE-516",
+      "title_zh": "废弃（重复）：隐蔽时间通道",
+      "title_en": "DEPRECATED (Duplicate): Covert Timing Channel (2.4)"
+    },
+    {
+      "_id": "CWE-517",
+      "title_zh": "其他故意引入、非恶意安全弱点",
+      "title_en": "Other Intentional, Nonmalicious Weakness (2.4)"
+    },
+    {
+      "_id": "CWE-518",
+      "title_zh": "非故意引入的安全弱点",
+      "title_en": "Inadvertently Introduced Weakness (2.4)"
+    },
+    {
+      "_id": "CWE-519",
+      "title_zh": ".NET环境问题",
+      "title_en": ".NET Environment Issues (2.4)"
+    },
+    {
+      "_id": "CWE-52",
+      "title_zh": "路径等价：'/multiple/trailling/slash//'",
+      "title_en": "Path Equivalence: '/multiple/trailing/slash//' (2.4)"
+    },
+    {
+      "_id": "CWE-520",
+      "title_zh": ".NET误配置：使用伪装",
+      "title_en": ".NET Misconfiguration: Use of Impersonation (2.4)"
+    },
+    {
+      "_id": "CWE-521",
+      "title_zh": "弱口令要求",
+      "title_en": "Weak Password Requirements (2.4)"
+    },
+    {
+      "_id": "CWE-522",
+      "title_zh": "不充分的凭证保护机制",
+      "title_en": "Insufficiently Protected Credentials (2.4)"
+    },
+    {
+      "_id": "CWE-523",
+      "title_zh": "凭证传输未经安全保护",
+      "title_en": "Unprotected Transport of Credentials (2.4)"
+    },
+    {
+      "_id": "CWE-524",
+      "title_zh": "通过缓存导致的信息暴露",
+      "title_en": "Information Exposure Through Caching (2.4)"
+    },
+    {
+      "_id": "CWE-525",
+      "title_zh": "通过浏览器缓存导致的信息暴露",
+      "title_en": "Information Exposure Through Browser Caching (2.4)"
+    },
+    {
+      "_id": "CWE-526",
+      "title_zh": "通过环境变量导致的信息暴露",
+      "title_en": "Information Exposure Through Environmental Variables (2.4)"
+    },
+    {
+      "_id": "CWE-527",
+      "title_zh": "将CVS仓库暴露给非授权控制范围",
+      "title_en": "Exposure of CVS Repository to an Unauthorized Control Sphere (2.4)"
+    },
+    {
+      "_id": "CWE-528",
+      "title_zh": "将CoreDump文件暴露给非授权控制范围",
+      "title_en": "Exposure of Core Dump File to an Unauthorized Control Sphere (2.4)"
+    },
+    {
+      "_id": "CWE-529",
+      "title_zh": "将访问控制列表文件暴露给非授权控制范围",
+      "title_en": "Exposure of Access Control List Files to an Unauthorized Control Sphere (2.4)"
+    },
+    {
+      "_id": "CWE-53",
+      "title_zh": "路径等价：'\\multiple\\\\internal\\backslash'",
+      "title_en": "Path Equivalence: '\\multiple\\\\internal\\backslash' (2.4)"
+    },
+    {
+      "_id": "CWE-530",
+      "title_zh": "将备份文件暴露给非授权控制范围",
+      "title_en": "Exposure of Backup File to an Unauthorized Control Sphere (2.4)"
+    },
+    {
+      "_id": "CWE-531",
+      "title_zh": "通过测试代码导致的信息暴露",
+      "title_en": "Information Exposure Through Test Code (2.4)"
+    },
+    {
+      "_id": "CWE-532",
+      "title_zh": "通过日志文件的信息暴露",
+      "title_en": "Information Exposure Through Log Files (2.4)"
+    },
+    {
+      "_id": "CWE-533",
+      "title_zh": "通过服务器日志文件导致的信息暴露",
+      "title_en": "Information Exposure Through Server Log Files (2.4)"
+    },
+    {
+      "_id": "CWE-534",
+      "title_zh": "通过Debug日志文件导致的信息暴露",
+      "title_en": "Information Exposure Through Debug Log Files (2.4)"
+    },
+    {
+      "_id": "CWE-535",
+      "title_zh": "通过Shell错误消息导致的信息暴露",
+      "title_en": "Information Exposure Through Shell Error Message (2.4)"
+    },
+    {
+      "_id": "CWE-536",
+      "title_zh": "通过Servlet运行时错误消息导致的信息暴露",
+      "title_en": "Information Exposure Through Servlet Runtime Error Message (2.4)"
+    },
+    {
+      "_id": "CWE-537",
+      "title_zh": "通过Java运行时错误消息导致的信息暴露",
+      "title_en": "Information Exposure Through Java Runtime Error Message (2.4)"
+    },
+    {
+      "_id": "CWE-538",
+      "title_zh": "文件和路径信息暴露",
+      "title_en": "File and Directory Information Exposure (2.4)"
+    },
+    {
+      "_id": "CWE-539",
+      "title_zh": "通过持久性Cookie导致的信息暴露",
+      "title_en": "Information Exposure Through Persistent Cookies (2.4)"
+    },
+    {
+      "_id": "CWE-54",
+      "title_zh": "路径等价：'filedir\\'(结尾的反斜杠)",
+      "title_en": "Path Equivalence: 'filedir\\' (Trailing Backslash) (2.4)"
+    },
+    {
+      "_id": "CWE-540",
+      "title_zh": "通过源代码导致的信息暴露",
+      "title_en": "Information Exposure Through Source Code (2.4)"
+    },
+    {
+      "_id": "CWE-541",
+      "title_zh": "通过包含源代码导致的信息暴露",
+      "title_en": "Information Exposure Through Include Source Code (2.4)"
+    },
+    {
+      "_id": "CWE-542",
+      "title_zh": "通过清理日志文件导致的信息暴露",
+      "title_en": "Information Exposure Through Cleanup Log Files (2.4)"
+    },
+    {
+      "_id": "CWE-543",
+      "title_zh": "在多线程上下文中使用缺失同步机制的Singleton设计模式",
+      "title_en": "Use of Singleton Pattern Without Synchronization in a Multithreaded Context (2.4)"
+    },
+    {
+      "_id": "CWE-544",
+      "title_zh": "标准化错误处理机制缺失",
+      "title_en": "Missing Standardized Error Handling Mechanism (2.4)"
+    },
+    {
+      "_id": "CWE-545",
+      "title_zh": "使用动态类装载",
+      "title_en": "Use of Dynamic Class Loading (2.4)"
+    },
+    {
+      "_id": "CWE-546",
+      "title_zh": "可疑注释",
+      "title_en": "Suspicious Comment (2.4)"
+    },
+    {
+      "_id": "CWE-547",
+      "title_zh": "使用硬编码、安全相关的常数",
+      "title_en": "Use of Hard-coded, Security-relevant Constants (2.4)"
+    },
+    {
+      "_id": "CWE-548",
+      "title_zh": "通过目录枚举导致的信息暴露",
+      "title_en": "Information Exposure Through Directory Listing (2.4)"
+    },
+    {
+      "_id": "CWE-549",
+      "title_zh": "口令域未进行输入隐藏",
+      "title_en": "Missing Password Field Masking (2.4)"
+    },
+    {
+      "_id": "CWE-55",
+      "title_zh": "路径等价：'/./' (单点路径)",
+      "title_en": "Path Equivalence: '/./' (Single Dot Directory) (2.4)"
+    },
+    {
+      "_id": "CWE-550",
+      "title_zh": "通过服务器错误消息导致的信息暴露",
+      "title_en": "Information Exposure Through Server Error Message (2.4)"
+    },
+    {
+      "_id": "CWE-551",
+      "title_zh": "不正确的行为次序：在解析与净化处理之前进行授权",
+      "title_en": "Incorrect Behavior Order: Authorization Before Parsing and Canonicalization (2.4)"
+    },
+    {
+      "_id": "CWE-552",
+      "title_zh": "对外部实体的文件或目录可访问",
+      "title_en": "Files or Directories Accessible to External Parties (2.4)"
+    },
+    {
+      "_id": "CWE-553",
+      "title_zh": "外部可访问目录中的命令行Shell",
+      "title_en": "Command Shell in Externally Accessible Directory (2.4)"
+    },
+    {
+      "_id": "CWE-554",
+      "title_zh": "ASP.NET误配置：没有使用输入验证框架",
+      "title_en": "ASP.NET Misconfiguration: Not Using Input Validation Framework (2.4)"
+    },
+    {
+      "_id": "CWE-555",
+      "title_zh": "J2EE误配置：在配置文件中明文存储口令",
+      "title_en": "J2EE Misconfiguration: Plaintext Password in Configuration File (2.4)"
+    },
+    {
+      "_id": "CWE-556",
+      "title_zh": "ASP.NET误配置：使用身份伪装",
+      "title_en": "ASP.NET Misconfiguration: Use of Identity Impersonation (2.4)"
+    },
+    {
+      "_id": "CWE-557",
+      "title_zh": "并发安全问题",
+      "title_en": "Concurrency Issues (2.4)"
+    },
+    {
+      "_id": "CWE-558",
+      "title_zh": "在多线程应用程序中使用getlogin()",
+      "title_en": "Use of getlogin() in Multithreaded Application (2.4)"
+    },
+    {
+      "_id": "CWE-559",
+      "title_zh": "经常性滥用：变量和参数",
+      "title_en": "Often Misused: Arguments and Parameters (2.4)"
+    },
+    {
+      "_id": "CWE-56",
+      "title_zh": "路径等价：'filedir*'（通配符）",
+      "title_en": "Path Equivalence: 'filedir*' (Wildcard) (2.4)"
+    },
+    {
+      "_id": "CWE-560",
+      "title_zh": "在chmod类型参数中使用umask()",
+      "title_en": "Use of umask() with chmod-style Argument (2.4)"
+    },
+    {
+      "_id": "CWE-561",
+      "title_zh": "死代码",
+      "title_en": "Dead Code (2.4)"
+    },
+    {
+      "_id": "CWE-562",
+      "title_zh": "返回栈上的变量地址",
+      "title_en": "Return of Stack Variable Address (2.4)"
+    },
+    {
+      "_id": "CWE-563",
+      "title_zh": "未使用的变量",
+      "title_en": "Unused Variable (2.4)"
+    },
+    {
+      "_id": "CWE-564",
+      "title_zh": "SQL注入：Hibernate",
+      "title_en": "SQL Injection: Hibernate (2.4)"
+    },
+    {
+      "_id": "CWE-565",
+      "title_zh": "在信任Cookie未进行验证与完整性检查",
+      "title_en": "Reliance on Cookies without Validation and Integrity Checking (2.4)"
+    },
+    {
+      "_id": "CWE-566",
+      "title_zh": "通过用户控制SQL主密钥绕过授权机制",
+      "title_en": "Authorization Bypass Through User-Controlled SQL Primary Key (2.4)"
+    },
+    {
+      "_id": "CWE-567",
+      "title_zh": "在多现场上下文中未能对共享数据进行同步访问",
+      "title_en": "Unsynchronized Access to Shared Data in a Multithreaded Context (2.4)"
+    },
+    {
+      "_id": "CWE-568",
+      "title_zh": "没有super.finalize()的finalize()方法",
+      "title_en": "finalize() Method Without super.finalize() (2.4)"
+    },
+    {
+      "_id": "CWE-569",
+      "title_zh": "表达式错误",
+      "title_en": "Expression Issues (2.4)"
+    },
+    {
+      "_id": "CWE-57",
+      "title_zh": "路径等价：'fakedir/'",
+      "title_en": "Path Equivalence: 'fakedir/../realdir/filename' (2.4)"
+    },
+    {
+      "_id": "CWE-570",
+      "title_zh": "表达式永假",
+      "title_en": "Expression is Always False (2.4)"
+    },
+    {
+      "_id": "CWE-571",
+      "title_zh": "表达式永真",
+      "title_en": "Expression is Always True (2.4)"
+    },
+    {
+      "_id": "CWE-572",
+      "title_zh": "调用线程的run()方法而非start()方法",
+      "title_en": "Call to Thread run() instead of start() (2.4)"
+    },
+    {
+      "_id": "CWE-573",
+      "title_zh": "调用者对规范的不恰当使用",
+      "title_en": "Improper Following of Specification by Caller (2.4)"
+    },
+    {
+      "_id": "CWE-574",
+      "title_zh": "EJB不安全实践：使用同步原语",
+      "title_en": "EJB Bad Practices: Use of Synchronization Primitives (2.4)"
+    },
+    {
+      "_id": "CWE-575",
+      "title_zh": "EJB不安全实践：使用AWT Swing",
+      "title_en": "EJB Bad Practices: Use of AWT Swing (2.4)"
+    },
+    {
+      "_id": "CWE-576",
+      "title_zh": "EJB不安全实践：使用Java I/O",
+      "title_en": "EJB Bad Practices: Use of Java I/O (2.4)"
+    },
+    {
+      "_id": "CWE-577",
+      "title_zh": "EJB不安全实践：使用套接字",
+      "title_en": "EJB Bad Practices: Use of Sockets (2.4)"
+    },
+    {
+      "_id": "CWE-578",
+      "title_zh": "EJB不安全实践：使用类加载器",
+      "title_en": "EJB Bad Practices: Use of Class Loader (2.4)"
+    },
+    {
+      "_id": "CWE-579",
+      "title_zh": "J2EE不安全实践：将不可序列化的对象存储在会话中",
+      "title_en": "J2EE Bad Practices: Non-serializable Object Stored in Session (2.4)"
+    },
+    {
+      "_id": "CWE-58",
+      "title_zh": "路径等价：Windows8.3形式文件名",
+      "title_en": "Path Equivalence: Windows 8.3 Filename (2.4)"
+    },
+    {
+      "_id": "CWE-580",
+      "title_zh": "未定义super.clone()的clone()方法",
+      "title_en": "clone() Method Without super.clone() (2.4)"
+    },
+    {
+      "_id": "CWE-581",
+      "title_zh": "对象模型违背：仅定义了一个等式与散列码",
+      "title_en": "Object Model Violation: Just One of Equals and Hashcode Defined (2.4)"
+    },
+    {
+      "_id": "CWE-582",
+      "title_zh": "公开、最终、静态声明的数组",
+      "title_en": "Array Declared Public, Final, and Static (2.4)"
+    },
+    {
+      "_id": "CWE-583",
+      "title_zh": "公开声明的finalize()方法",
+      "title_en": "finalize() Method Declared Public (2.4)"
+    },
+    {
+      "_id": "CWE-584",
+      "title_zh": "在最后的代码块中返回",
+      "title_en": "Return Inside Finally Block (2.4)"
+    },
+    {
+      "_id": "CWE-585",
+      "title_zh": "空的同步代码块",
+      "title_en": "Empty Synchronized Block (2.4)"
+    },
+    {
+      "_id": "CWE-586",
+      "title_zh": "对Finalize()的显式调用",
+      "title_en": "Explicit Call to Finalize() (2.4)"
+    },
+    {
+      "_id": "CWE-587",
+      "title_zh": "将一个固定地址复制给指针",
+      "title_en": "Assignment of a Fixed Address to a Pointer (2.4)"
+    },
+    {
+      "_id": "CWE-588",
+      "title_zh": "尝试访问一个非结构体指针的子域",
+      "title_en": "Attempt to Access Child of a Non-structure Pointer (2.4)"
+    },
+    {
+      "_id": "CWE-589",
+      "title_zh": "对非普适API的调用",
+      "title_en": "Call to Non-ubiquitous API (2.4)"
+    },
+    {
+      "_id": "CWE-59",
+      "title_zh": "在文件访问前对链接解析不恰当（链接跟随）",
+      "title_en": "Improper Link Resolution Before File Access ('Link Following') (2.4)"
+    },
+    {
+      "_id": "CWE-590",
+      "title_zh": "释放并不在堆上的内存",
+      "title_en": "Free of Memory not on the Heap (2.4)"
+    },
+    {
+      "_id": "CWE-591",
+      "title_zh": "敏感数据存储于加锁不恰当的内存区域",
+      "title_en": "Sensitive Data Storage in Improperly Locked Memory (2.4)"
+    },
+    {
+      "_id": "CWE-592",
+      "title_zh": "认证绕过问题",
+      "title_en": "Authentication Bypass Issues (2.4)"
+    },
+    {
+      "_id": "CWE-593",
+      "title_zh": "认证绕过：SSL对象创建后修改OpenSSL CTX对象",
+      "title_en": "Authentication Bypass: OpenSSL CTX Object Modified after SSL Objects are Created (2.4)"
+    },
+    {
+      "_id": "CWE-594",
+      "title_zh": "J2EE框架：将不可序列化的对象存储到磁盘上",
+      "title_en": "J2EE Framework: Saving Unserializable Objects to Disk (2.4)"
+    },
+    {
+      "_id": "CWE-595",
+      "title_zh": "错误对对象引用当作对象内容进行比较",
+      "title_en": "Comparison of Object References Instead of Object Contents (2.4)"
+    },
+    {
+      "_id": "CWE-596",
+      "title_zh": "不正确的语义对象比较",
+      "title_en": "Incorrect Semantic Object Comparison (2.4)"
+    },
+    {
+      "_id": "CWE-597",
+      "title_zh": "在字符串比较中使用了错误的操作符",
+      "title_en": "Use of Wrong Operator in String Comparison (2.4)"
+    },
+    {
+      "_id": "CWE-598",
+      "title_zh": "通过GET请求中的查询字符串导致的信息暴露",
+      "title_en": "Information Exposure Through Query Strings in GET Request (2.4)"
+    },
+    {
+      "_id": "CWE-599",
+      "title_zh": "缺失对OpenSSL证书的验证",
+      "title_en": "Missing Validation of OpenSSL Certificate (2.4)"
+    },
+    {
+      "_id": "CWE-6",
+      "title_zh": "J2EE误配置：会话ID长度不充分",
+      "title_en": "J2EE Misconfiguration: Insufficient Session-ID Length (2.4)"
+    },
+    {
+      "_id": "CWE-60",
+      "title_zh": "UNIX路径链接问题",
+      "title_en": "UNIX Path Link Problems (2.4)"
+    },
+    {
+      "_id": "CWE-600",
+      "title_zh": "Servlet中未捕获的异常",
+      "title_en": "Uncaught Exception in Servlet  (2.4)"
+    },
+    {
+      "_id": "CWE-601",
+      "title_zh": "指向未可信站点的URL重定向（开放重定向）",
+      "title_en": "URL Redirection to Untrusted Site ('Open Redirect') (2.4)"
+    },
+    {
+      "_id": "CWE-602",
+      "title_zh": "服务端安全的客户端实施",
+      "title_en": "Client-Side Enforcement of Server-Side Security (2.4)"
+    },
+    {
+      "_id": "CWE-603",
+      "title_zh": "使用客户端的认证机制",
+      "title_en": "Use of Client-Side Authentication (2.4)"
+    },
+    {
+      "_id": "CWE-604",
+      "title_zh": "废弃条目",
+      "title_en": "Deprecated Entries (2.4)"
+    },
+    {
+      "_id": "CWE-605",
+      "title_zh": "对同一端口的多重绑定",
+      "title_en": "Multiple Binds to the Same Port (2.4)"
+    },
+    {
+      "_id": "CWE-606",
+      "title_zh": "循环条件输入未经检查",
+      "title_en": "Unchecked Input for Loop Condition (2.4)"
+    },
+    {
+      "_id": "CWE-607",
+      "title_zh": "公开静态最终域索引互斥的对象",
+      "title_en": "Public Static Final Field References Mutable Object (2.4)"
+    },
+    {
+      "_id": "CWE-608",
+      "title_zh": "Structs：动作表单类中存在非私有域",
+      "title_en": "Struts: Non-private Field in ActionForm Class (2.4)"
+    },
+    {
+      "_id": "CWE-609",
+      "title_zh": "双重检查的加锁机制",
+      "title_en": "Double-Checked Locking (2.4)"
+    },
+    {
+      "_id": "CWE-61",
+      "title_zh": "UNIX符号链接跟随",
+      "title_en": "UNIX Symbolic Link (Symlink) Following (2.4)"
+    },
+    {
+      "_id": "CWE-610",
+      "title_zh": "资源在另一范围的外部可控制索引",
+      "title_en": "Externally Controlled Reference to a Resource in Another Sphere (2.4)"
+    },
+    {
+      "_id": "CWE-611",
+      "title_zh": "XML外部实体引用的不恰当限制（XXE）",
+      "title_en": "Improper Restriction of XML External Entity Reference ('XXE') (2.4)"
+    },
+    {
+      "_id": "CWE-612",
+      "title_zh": "通过私有数据的索引导致的信息暴露",
+      "title_en": "Information Exposure Through Indexing of Private Data (2.4)"
+    },
+    {
+      "_id": "CWE-613",
+      "title_zh": "不充分的会话过期机制",
+      "title_en": "Insufficient Session Expiration (2.4)"
+    },
+    {
+      "_id": "CWE-614",
+      "title_zh": "HTTPS会话中未设置'Secure'属性的敏感Cookie",
+      "title_en": "Sensitive Cookie in HTTPS Session Without 'Secure' Attribute (2.4)"
+    },
+    {
+      "_id": "CWE-615",
+      "title_zh": "通过注释导致的信息暴露",
+      "title_en": "Information Exposure Through Comments (2.4)"
+    },
+    {
+      "_id": "CWE-616",
+      "title_zh": "上传文件变量的不完整标识（PHP）",
+      "title_en": "Incomplete Identification of Uploaded File Variables (PHP) (2.4)"
+    },
+    {
+      "_id": "CWE-617",
+      "title_zh": "可达断言",
+      "title_en": "Reachable Assertion (2.4)"
+    },
+    {
+      "_id": "CWE-618",
+      "title_zh": "暴露的不安全ActiveX方法",
+      "title_en": "Exposed Unsafe ActiveX Method (2.4)"
+    },
+    {
+      "_id": "CWE-619",
+      "title_zh": "数据库游标悬挂（游标注入）",
+      "title_en": "Dangling Database Cursor ('Cursor Injection') (2.4)"
+    },
+    {
+      "_id": "CWE-62",
+      "title_zh": "UNIX硬链接",
+      "title_en": "UNIX Hard Link (2.4)"
+    },
+    {
+      "_id": "CWE-620",
+      "title_zh": "未经验证的口令修改",
+      "title_en": "Unverified Password Change (2.4)"
+    },
+    {
+      "_id": "CWE-621",
+      "title_zh": "变量抽取错误",
+      "title_en": "Variable Extraction Error (2.4)"
+    },
+    {
+      "_id": "CWE-622",
+      "title_zh": "函数挂钩参数的验证不恰当",
+      "title_en": "Improper Validation of Function Hook Arguments (2.4)"
+    },
+    {
+      "_id": "CWE-623",
+      "title_zh": "不安全的ActiveX控件被标记为脚本安全",
+      "title_en": "Unsafe ActiveX Control Marked Safe For Scripting (2.4)"
+    },
+    {
+      "_id": "CWE-624",
+      "title_zh": "可执行体正则表达式错误",
+      "title_en": "Executable Regular Expression Error (2.4)"
+    },
+    {
+      "_id": "CWE-625",
+      "title_zh": "宽松定义的正则表达式",
+      "title_en": "Permissive Regular Expression (2.4)"
+    },
+    {
+      "_id": "CWE-626",
+      "title_zh": "空字节交互错误",
+      "title_en": "Null Byte Interaction Error (Poison Null Byte) (2.4)"
+    },
+    {
+      "_id": "CWE-627",
+      "title_zh": "动态变量执行",
+      "title_en": "Dynamic Variable Evaluation (2.4)"
+    },
+    {
+      "_id": "CWE-628",
+      "title_zh": "使用不正确指定参数的函数调用",
+      "title_en": "Function Call with Incorrectly Specified Arguments (2.4)"
+    },
+    {
+      "_id": "CWE-629",
+      "title_zh": "OWASP Top Ten(2007)中的安全弱点",
+      "title_en": "Weaknesses in OWASP Top Ten (2007) (2.4)"
+    },
+    {
+      "_id": "CWE-63",
+      "title_zh": "Windows路径链接问题",
+      "title_en": "Windows Path Link Problems (2.4)"
+    },
+    {
+      "_id": "CWE-630",
+      "title_zh": "SAMATE中检查的安全弱点",
+      "title_en": "Weaknesses Examined by SAMATE (2.4)"
+    },
+    {
+      "_id": "CWE-631",
+      "title_zh": "特定资源的安全弱点",
+      "title_en": "Resource-specific Weaknesses (2.4)"
+    },
+    {
+      "_id": "CWE-632",
+      "title_zh": "影响文件或目录的安全弱点",
+      "title_en": "Weaknesses that Affect Files or Directories (2.4)"
+    },
+    {
+      "_id": "CWE-633",
+      "title_zh": "影响内存的安全弱点",
+      "title_en": "Weaknesses that Affect Memory (2.4)"
+    },
+    {
+      "_id": "CWE-634",
+      "title_zh": "影响系统进程的安全弱点",
+      "title_en": "Weaknesses that Affect System Processes (2.4)"
+    },
+    {
+      "_id": "CWE-635",
+      "title_zh": "NVD漏洞库使用的安全弱点类型",
+      "title_en": "Weaknesses Used by NVD (2.4)"
+    },
+    {
+      "_id": "CWE-636",
+      "title_zh": "未能安全地进行程序失效（Failing Open）",
+      "title_en": "Not Failing Securely ('Failing Open') (2.4)"
+    },
+    {
+      "_id": "CWE-637",
+      "title_zh": "保护机制不必要的复杂性（未使用经济性的机制）",
+      "title_en": "Unnecessary Complexity in Protection Mechanism (Not Using 'Economy of Mechanism') (2.4)"
+    },
+    {
+      "_id": "CWE-638",
+      "title_zh": "未能使用完整仲裁",
+      "title_en": "Not Using Complete Mediation (2.4)"
+    },
+    {
+      "_id": "CWE-639",
+      "title_zh": "通过用户控制密钥绕过授权机制",
+      "title_en": "Authorization Bypass Through User-Controlled Key (2.4)"
+    },
+    {
+      "_id": "CWE-64",
+      "title_zh": "Windows快捷方式跟随（.LNK）",
+      "title_en": "Windows Shortcut Following (.LNK) (2.4)"
+    },
+    {
+      "_id": "CWE-640",
+      "title_zh": "忘记口令恢复机制弱",
+      "title_en": "Weak Password Recovery Mechanism for Forgotten Password (2.4)"
+    },
+    {
+      "_id": "CWE-641",
+      "title_zh": "文件和其他资源名称限制不恰当",
+      "title_en": "Improper Restriction of Names for Files and Other Resources (2.4)"
+    },
+    {
+      "_id": "CWE-642",
+      "title_zh": "对关键状态数据的外部可控制",
+      "title_en": "External Control of Critical State Data (2.4)"
+    },
+    {
+      "_id": "CWE-643",
+      "title_zh": "XPath表达式中数据转义处理不恰当（XPath注入）",
+      "title_en": "Improper Neutralization of Data within XPath Expressions ('XPath Injection') (2.4)"
+    },
+    {
+      "_id": "CWE-644",
+      "title_zh": "对HTTP头部进行脚本语法转义处理不恰当",
+      "title_en": "Improper Neutralization of HTTP Headers for Scripting Syntax (2.4)"
+    },
+    {
+      "_id": "CWE-645",
+      "title_zh": "过度限制的账户封锁机制",
+      "title_en": "Overly Restrictive Account Lockout Mechanism (2.4)"
+    },
+    {
+      "_id": "CWE-646",
+      "title_zh": "依赖于外部提供文件的文件名或扩展名",
+      "title_en": "Reliance on File Name or Extension of Externally-Supplied File (2.4)"
+    },
+    {
+      "_id": "CWE-647",
+      "title_zh": "使用未经净化的URL路径进行授权决策",
+      "title_en": "Use of Non-Canonical URL Paths for Authorization Decisions (2.4)"
+    },
+    {
+      "_id": "CWE-648",
+      "title_zh": "特权API的不正确使用",
+      "title_en": "Incorrect Use of Privileged APIs (2.4)"
+    },
+    {
+      "_id": "CWE-649",
+      "title_zh": "依赖于未经完整性检查的安全相关输入的混淆或加密",
+      "title_en": "Reliance on Obfuscation or Encryption of Security-Relevant Inputs without Integrity Checking (2.4)"
+    },
+    {
+      "_id": "CWE-65",
+      "title_zh": "Windows硬链接",
+      "title_en": "Windows Hard Link (2.4)"
+    },
+    {
+      "_id": "CWE-650",
+      "title_zh": "在服务器端信任HTTP权限模型",
+      "title_en": "Trusting HTTP Permission Methods on the Server Side (2.4)"
+    },
+    {
+      "_id": "CWE-651",
+      "title_zh": "通过WSDL文件导致的信息暴露",
+      "title_en": "Information Exposure Through WSDL File (2.4)"
+    },
+    {
+      "_id": "CWE-652",
+      "title_zh": "XQuery表达式中数据转义处理不恰当（XQuery注入）",
+      "title_en": "Improper Neutralization of Data within XQuery Expressions ('XQuery Injection') (2.4)"
+    },
+    {
+      "_id": "CWE-653",
+      "title_zh": "不充分的划分",
+      "title_en": "Insufficient Compartmentalization (2.4)"
+    },
+    {
+      "_id": "CWE-654",
+      "title_zh": "在安全决策中依赖单个元素",
+      "title_en": "Reliance on a Single Factor in a Security Decision (2.4)"
+    },
+    {
+      "_id": "CWE-655",
+      "title_zh": "不充分的心理学可接受性",
+      "title_en": "Insufficient Psychological Acceptability (2.4)"
+    },
+    {
+      "_id": "CWE-656",
+      "title_zh": "依赖构建于封闭的安全性",
+      "title_en": "Reliance on Security Through Obscurity (2.4)"
+    },
+    {
+      "_id": "CWE-657",
+      "title_zh": "安全设计原则违背",
+      "title_en": "Violation of Secure Design Principles (2.4)"
+    },
+    {
+      "_id": "CWE-658",
+      "title_zh": "以C语言编写软件涉及的安全弱点",
+      "title_en": "Weaknesses in Software Written in C (2.4)"
+    },
+    {
+      "_id": "CWE-659",
+      "title_zh": "以C++语言编写软件涉及的安全弱点",
+      "title_en": "Weaknesses in Software Written in C++ (2.4)"
+    },
+    {
+      "_id": "CWE-66",
+      "title_zh": "标识虚拟资源的文件名处理不恰当",
+      "title_en": "Improper Handling of File Names that Identify Virtual Resources (2.4)"
+    },
+    {
+      "_id": "CWE-660",
+      "title_zh": "以Java语言编写软件涉及的安全弱点",
+      "title_en": "Weaknesses in Software Written in Java (2.4)"
+    },
+    {
+      "_id": "CWE-661",
+      "title_zh": "以PHP语言编写软件涉及的安全弱点",
+      "title_en": "Weaknesses in Software Written in PHP (2.4)"
+    },
+    {
+      "_id": "CWE-662",
+      "title_zh": "不恰当的同步机制",
+      "title_en": "Improper Synchronization (2.4)"
+    },
+    {
+      "_id": "CWE-663",
+      "title_zh": "在并发上下文中使用不可再入的函数",
+      "title_en": "Use of a Non-reentrant Function in a Concurrent Context (2.4)"
+    },
+    {
+      "_id": "CWE-664",
+      "title_zh": "在生命周期中对资源的控制不恰当",
+      "title_en": "Improper Control of a Resource Through its Lifetime (2.4)"
+    },
+    {
+      "_id": "CWE-665",
+      "title_zh": "初始化不恰当",
+      "title_en": "Improper Initialization (2.4)"
+    },
+    {
+      "_id": "CWE-666",
+      "title_zh": "在生命周期错误阶段对资源进行操作",
+      "title_en": "Operation on Resource in Wrong Phase of Lifetime (2.4)"
+    },
+    {
+      "_id": "CWE-667",
+      "title_zh": "加锁机制不恰当",
+      "title_en": "Improper Locking (2.4)"
+    },
+    {
+      "_id": "CWE-668",
+      "title_zh": "将资源暴露给错误范围",
+      "title_en": "Exposure of Resource to Wrong Sphere (2.4)"
+    },
+    {
+      "_id": "CWE-669",
+      "title_zh": "在范围间的资源转移不正确",
+      "title_en": "Incorrect Resource Transfer Between Spheres (2.4)"
+    },
+    {
+      "_id": "CWE-67",
+      "title_zh": "Windows设备名处理不恰当",
+      "title_en": "Improper Handling of Windows Device Names (2.4)"
+    },
+    {
+      "_id": "CWE-670",
+      "title_zh": "控制流实现总是不正确",
+      "title_en": "Always-Incorrect Control Flow Implementation (2.4)"
+    },
+    {
+      "_id": "CWE-671",
+      "title_zh": "缺乏对安全的管理控制",
+      "title_en": "Lack of Administrator Control over Security (2.4)"
+    },
+    {
+      "_id": "CWE-672",
+      "title_zh": "在过期或释放后对资源进行操作",
+      "title_en": "Operation on a Resource after Expiration or Release (2.4)"
+    },
+    {
+      "_id": "CWE-673",
+      "title_zh": "范围定义的外部影响",
+      "title_en": "External Influence of Sphere Definition (2.4)"
+    },
+    {
+      "_id": "CWE-674",
+      "title_zh": "未经控制的递归",
+      "title_en": "Uncontrolled Recursion (2.4)"
+    },
+    {
+      "_id": "CWE-675",
+      "title_zh": "对资源的重复操作",
+      "title_en": "Duplicate Operations on Resource (2.4)"
+    },
+    {
+      "_id": "CWE-676",
+      "title_zh": "潜在危险函数的使用",
+      "title_en": "Use of Potentially Dangerous Function (2.4)"
+    },
+    {
+      "_id": "CWE-677",
+      "title_zh": "安全弱点基本元素",
+      "title_en": "Weakness Base Elements (2.4)"
+    },
+    {
+      "_id": "CWE-678",
+      "title_zh": "组合安全弱点",
+      "title_en": "Composites (2.4)"
+    },
+    {
+      "_id": "CWE-679",
+      "title_zh": "链接的元素",
+      "title_en": "Chain Elements (2.4)"
+    },
+    {
+      "_id": "CWE-68",
+      "title_zh": "Windows虚拟文件问题",
+      "title_en": "Windows Virtual File Problems (2.4)"
+    },
+    {
+      "_id": "CWE-680",
+      "title_zh": "整数溢出导致缓冲区溢出",
+      "title_en": "Integer Overflow to Buffer Overflow (2.4)"
+    },
+    {
+      "_id": "CWE-681",
+      "title_zh": "数值类型间的不正确转换",
+      "title_en": "Incorrect Conversion between Numeric Types (2.4)"
+    },
+    {
+      "_id": "CWE-682",
+      "title_zh": "数值计算不正确",
+      "title_en": "Incorrect Calculation (2.4)"
+    },
+    {
+      "_id": "CWE-683",
+      "title_zh": "使用不正确参数次序的函数调用",
+      "title_en": "Function Call With Incorrect Order of Arguments (2.4)"
+    },
+    {
+      "_id": "CWE-684",
+      "title_zh": "特定函数功能的不正确供给",
+      "title_en": "Incorrect Provision of Specified Functionality (2.4)"
+    },
+    {
+      "_id": "CWE-685",
+      "title_zh": "使用不正确参数个数的函数调用",
+      "title_en": "Function Call With Incorrect Number of Arguments (2.4)"
+    },
+    {
+      "_id": "CWE-686",
+      "title_zh": "使用不正确参数类型的函数调用",
+      "title_en": "Function Call With Incorrect Argument Type (2.4)"
+    },
+    {
+      "_id": "CWE-687",
+      "title_zh": "使用不正确指定参数值的函数调用",
+      "title_en": "Function Call With Incorrectly Specified Argument Value (2.4)"
+    },
+    {
+      "_id": "CWE-688",
+      "title_zh": "使用不正确变量或索引作为参数的函数调用",
+      "title_en": "Function Call With Incorrect Variable or Reference as Argument (2.4)"
+    },
+    {
+      "_id": "CWE-689",
+      "title_zh": "在资源拷贝时的权限竞争条件",
+      "title_en": "Permission Race Condition During Resource Copy (2.4)"
+    },
+    {
+      "_id": "CWE-69",
+      "title_zh": "Windows::DATA交换数据流处理不恰当",
+      "title_en": "Improper Handling of Windows ::DATA Alternate Data Stream (2.4)"
+    },
+    {
+      "_id": "CWE-690",
+      "title_zh": "未检查返回值导致空指针解引用",
+      "title_en": "Unchecked Return Value to NULL Pointer Dereference (2.4)"
+    },
+    {
+      "_id": "CWE-691",
+      "title_zh": "不充分的控制流管理",
+      "title_en": "Insufficient Control Flow Management (2.4)"
+    },
+    {
+      "_id": "CWE-692",
+      "title_zh": "黑名单不完全导致跨站脚本",
+      "title_en": "Incomplete Blacklist to Cross-Site Scripting (2.4)"
+    },
+    {
+      "_id": "CWE-693",
+      "title_zh": "保护机制失效",
+      "title_en": "Protection Mechanism Failure (2.4)"
+    },
+    {
+      "_id": "CWE-694",
+      "title_zh": "使用多个具有重复标识的资源",
+      "title_en": "Use of Multiple Resources with Duplicate Identifier (2.4)"
+    },
+    {
+      "_id": "CWE-695",
+      "title_zh": "使用底层的功能例程",
+      "title_en": "Use of Low-Level Functionality (2.4)"
+    },
+    {
+      "_id": "CWE-696",
+      "title_zh": "不正确的行为次序",
+      "title_en": "Incorrect Behavior Order (2.4)"
+    },
+    {
+      "_id": "CWE-697",
+      "title_zh": "不充分的比较",
+      "title_en": "Insufficient Comparison (2.4)"
+    },
+    {
+      "_id": "CWE-698",
+      "title_zh": "重定向后执行（EAR）",
+      "title_en": "Execution After Redirect (EAR) (2.4)"
+    },
+    {
+      "_id": "CWE-699",
+      "title_zh": "开发环节中的安全概念",
+      "title_en": "Development Concepts (2.4)"
+    },
+    {
+      "_id": "CWE-7",
+      "title_zh": "J2EE误配置：缺少定制错误页面",
+      "title_en": "J2EE Misconfiguration: Missing Custom Error Page (2.4)"
+    },
+    {
+      "_id": "CWE-70",
+      "title_zh": "Mac虚拟文件问题",
+      "title_en": "Mac Virtual File Problems (2.4)"
+    },
+    {
+      "_id": "CWE-700",
+      "title_zh": "“七种致命武器”",
+      "title_en": "Seven Pernicious Kingdoms (2.4)"
+    },
+    {
+      "_id": "CWE-701",
+      "title_zh": "设计环节引入的安全弱点",
+      "title_en": "Weaknesses Introduced During Design (2.4)"
+    },
+    {
+      "_id": "CWE-702",
+      "title_zh": "实现环节引入的安全弱点",
+      "title_en": "Weaknesses Introduced During Implementation (2.4)"
+    },
+    {
+      "_id": "CWE-703",
+      "title_zh": "对异常条件检查或处理不恰当",
+      "title_en": "Improper Check or Handling of Exceptional Conditions (2.4)"
+    },
+    {
+      "_id": "CWE-704",
+      "title_zh": "不正确的类型转换",
+      "title_en": "Incorrect Type Conversion or Cast (2.4)"
+    },
+    {
+      "_id": "CWE-705",
+      "title_zh": "控制流范围控制不正确",
+      "title_en": "Incorrect Control Flow Scoping (2.4)"
+    },
+    {
+      "_id": "CWE-706",
+      "title_zh": "使用不正确的解析名称或索引",
+      "title_en": "Use of Incorrectly-Resolved Name or Reference (2.4)"
+    },
+    {
+      "_id": "CWE-707",
+      "title_zh": "对消息或数据结构的处理不恰当",
+      "title_en": "Improper Enforcement of Message or Data Structure (2.4)"
+    },
+    {
+      "_id": "CWE-708",
+      "title_zh": "不正确的属主授予",
+      "title_en": "Incorrect Ownership Assignment (2.4)"
+    },
+    {
+      "_id": "CWE-709",
+      "title_zh": "命名管道",
+      "title_en": "Named Chains (2.4)"
+    },
+    {
+      "_id": "CWE-71",
+      "title_zh": "Apple '.DS_Store'",
+      "title_en": "Apple '.DS_Store' (2.4)"
+    },
+    {
+      "_id": "CWE-710",
+      "title_zh": "编程规范违背",
+      "title_en": "Coding Standards Violation (2.4)"
+    },
+    {
+      "_id": "CWE-711",
+      "title_zh": "OWASP Top Ten (2004)中的安全弱点",
+      "title_en": "Weaknesses in OWASP Top Ten (2004) (2.4)"
+    },
+    {
+      "_id": "CWE-712",
+      "title_zh": "OWASP Top Ten 2007 A1目录 - 跨站脚本(XSS)",
+      "title_en": "OWASP Top Ten 2007 Category A1 - Cross Site Scripting (XSS) (2.4)"
+    },
+    {
+      "_id": "CWE-713",
+      "title_zh": "OWASP Top Ten 2007 A2目录 - 注入缺陷",
+      "title_en": "OWASP Top Ten 2007 Category A2 - Injection Flaws (2.4)"
+    },
+    {
+      "_id": "CWE-714",
+      "title_zh": "OWASP Top Ten 2007 A3目录 - 恶意文件执行",
+      "title_en": "OWASP Top Ten 2007 Category A3 - Malicious File Execution (2.4)"
+    },
+    {
+      "_id": "CWE-715",
+      "title_zh": "OWASP Top Ten 2007 A4目录 - 不安全的直接对象引用",
+      "title_en": "OWASP Top Ten 2007 Category A4 - Insecure Direct Object Reference (2.4)"
+    },
+    {
+      "_id": "CWE-716",
+      "title_zh": "OWASP Top Ten 2007 A5目录 - 跨站请求伪造(CSRF)",
+      "title_en": "OWASP Top Ten 2007 Category A5 - Cross Site Request Forgery (CSRF) (2.4)"
+    },
+    {
+      "_id": "CWE-717",
+      "title_zh": "OWASP Top Ten 2007 A6目录 - 信息泄露或错误处理不恰当",
+      "title_en": "OWASP Top Ten 2007 Category A6 - Information Leakage and Improper Error Handling (2.4)"
+    },
+    {
+      "_id": "CWE-718",
+      "title_zh": "OWASP Top Ten 2007 A7目录 - 不安全的认证与会话管理",
+      "title_en": "OWASP Top Ten 2007 Category A7 - Broken Authentication and Session Management (2.4)"
+    },
+    {
+      "_id": "CWE-719",
+      "title_zh": "OWASP Top Ten 2007 A8目录 - 不安全的密码学存储",
+      "title_en": "OWASP Top Ten 2007 Category A8 - Insecure Cryptographic Storage (2.4)"
+    },
+    {
+      "_id": "CWE-72",
+      "title_zh": "Apple HFS+交换数据流路径处理不恰当",
+      "title_en": "Improper Handling of Apple HFS+ Alternate Data Stream Path (2.4)"
+    },
+    {
+      "_id": "CWE-720",
+      "title_zh": "OWASP Top Ten 2007 A9目录 - 不安全的传输层保护机制",
+      "title_en": "OWASP Top Ten 2007 Category A9 - Insecure Communications (2.4)"
+    },
+    {
+      "_id": "CWE-721",
+      "title_zh": "OWASP Top Ten 2007 A10目录 - 未能限制URL访问",
+      "title_en": "OWASP Top Ten 2007 Category A10 - Failure to Restrict URL Access (2.4)"
+    },
+    {
+      "_id": "CWE-722",
+      "title_zh": "OWASP Top Ten 2004 A1目录 - 未经验证的输入",
+      "title_en": "OWASP Top Ten 2004 Category A1 - Unvalidated Input (2.4)"
+    },
+    {
+      "_id": "CWE-723",
+      "title_zh": "OWASP Top Ten 2004 A2目录 - 不安全的访问控制",
+      "title_en": "OWASP Top Ten 2004 Category A2 - Broken Access Control (2.4)"
+    },
+    {
+      "_id": "CWE-724",
+      "title_zh": "OWASP Top Ten 2004 A3目录 - 不安全的认证与会话管理",
+      "title_en": "OWASP Top Ten 2004 Category A3 - Broken Authentication and Session Management (2.4)"
+    },
+    {
+      "_id": "CWE-725",
+      "title_zh": "OWASP Top Ten 2004 A4目录 - 跨站脚本(XSS)缺陷",
+      "title_en": "OWASP Top Ten 2004 Category A4 - Cross-Site Scripting (XSS) Flaws (2.4)"
+    },
+    {
+      "_id": "CWE-726",
+      "title_zh": "OWASP Top Ten 2004 A5目录 - 缓冲区溢出",
+      "title_en": "OWASP Top Ten 2004 Category A5 - Buffer Overflows (2.4)"
+    },
+    {
+      "_id": "CWE-727",
+      "title_zh": "OWASP Top Ten 2004 A6目录 - 注入缺陷",
+      "title_en": "OWASP Top Ten 2004 Category A6 - Injection Flaws (2.4)"
+    },
+    {
+      "_id": "CWE-728",
+      "title_zh": "OWASP Top Ten 2004 A7目录 - 错误处理不恰当",
+      "title_en": "OWASP Top Ten 2004 Category A7 - Improper Error Handling (2.4)"
+    },
+    {
+      "_id": "CWE-729",
+      "title_zh": "OWASP Top Ten 2004 A8目录 - 不安全的存储",
+      "title_en": "OWASP Top Ten 2004 Category A8 - Insecure Storage (2.4)"
+    },
+    {
+      "_id": "CWE-73",
+      "title_zh": "文件名或路径的外部可控制",
+      "title_en": "External Control of File Name or Path (2.4)"
+    },
+    {
+      "_id": "CWE-730",
+      "title_zh": "OWASP Top Ten 2004 A9目录 - 拒绝服务",
+      "title_en": "OWASP Top Ten 2004 Category A9 - Denial of Service (2.4)"
+    },
+    {
+      "_id": "CWE-731",
+      "title_zh": "OWASP Top Ten 2004 A10目录 - 不安全的配置管理",
+      "title_en": "OWASP Top Ten 2004 Category A10 - Insecure Configuration Management (2.4)"
+    },
+    {
+      "_id": "CWE-732",
+      "title_zh": "关键资源的不正确权限授予",
+      "title_en": "Incorrect Permission Assignment for Critical Resource (2.4)"
+    },
+    {
+      "_id": "CWE-733",
+      "title_zh": "编译器优化对安全关键代码的移除或修改",
+      "title_en": "Compiler Optimization Removal or Modification of Security-critical Code (2.4)"
+    },
+    {
+      "_id": "CWE-734",
+      "title_zh": "CERT C安全编码规范中解决的安全弱点",
+      "title_en": "Weaknesses Addressed by the CERT C Secure Coding Standard (2.4)"
+    },
+    {
+      "_id": "CWE-735",
+      "title_zh": "CERT C安全编程规范01节-预处理（PRE）",
+      "title_en": "CERT C Secure Coding Section 01 - Preprocessor (PRE) (2.4)"
+    },
+    {
+      "_id": "CWE-736",
+      "title_zh": "CERT C安全编程规范02节-声明与初始化（DCL）",
+      "title_en": "CERT C Secure Coding Section 02 - Declarations and Initialization (DCL) (2.4)"
+    },
+    {
+      "_id": "CWE-737",
+      "title_zh": "CERT C安全编程规范03节-表达式（EXP）",
+      "title_en": "CERT C Secure Coding Section 03 - Expressions (EXP) (2.4)"
+    },
+    {
+      "_id": "CWE-738",
+      "title_zh": "CERT C安全编程规范04节-整数（INT）",
+      "title_en": "CERT C Secure Coding Section 04 - Integers (INT) (2.4)"
+    },
+    {
+      "_id": "CWE-739",
+      "title_zh": "CERT C安全编程规范05节-浮点数（FLP）",
+      "title_en": "CERT C Secure Coding Section 05 - Floating Point (FLP) (2.4)"
+    },
+    {
+      "_id": "CWE-74",
+      "title_zh": "输出中的特殊元素转义处理不恰当（注入）",
+      "title_en": "Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') (2.4)"
+    },
+    {
+      "_id": "CWE-740",
+      "title_zh": "CERT C安全编程规范06节-数组（ARR）",
+      "title_en": "CERT C Secure Coding Section 06 - Arrays (ARR) (2.4)"
+    },
+    {
+      "_id": "CWE-741",
+      "title_zh": "CERT C安全编程规范07节-字符与字符串（STR）",
+      "title_en": "CERT C Secure Coding Section 07 - Characters and Strings (STR) (2.4)"
+    },
+    {
+      "_id": "CWE-742",
+      "title_zh": "CERT C安全编程规范08节-内存管理（MEM）",
+      "title_en": "CERT C Secure Coding Section 08 - Memory Management (MEM) (2.4)"
+    },
+    {
+      "_id": "CWE-743",
+      "title_zh": "CERT C安全编程规范09节-输入输出（FIO）",
+      "title_en": "CERT C Secure Coding Section 09 - Input Output (FIO) (2.4)"
+    },
+    {
+      "_id": "CWE-744",
+      "title_zh": "CERT C安全编程规范10节-环境（ENV）",
+      "title_en": "CERT C Secure Coding Section 10 - Environment (ENV) (2.4)"
+    },
+    {
+      "_id": "CWE-745",
+      "title_zh": "CERT C安全编程规范11节-信号处理（SIG）",
+      "title_en": "CERT C Secure Coding Section 11 - Signals (SIG) (2.4)"
+    },
+    {
+      "_id": "CWE-746",
+      "title_zh": "CERT C安全编程规范12节-错误处理（ERR）",
+      "title_en": "CERT C Secure Coding Section 12 - Error Handling (ERR) (2.4)"
+    },
+    {
+      "_id": "CWE-747",
+      "title_zh": "CERT C安全编程规范49节-混杂目录（MSC）",
+      "title_en": "CERT C Secure Coding Section 49 - Miscellaneous (MSC) (2.4)"
+    },
+    {
+      "_id": "CWE-748",
+      "title_zh": "CERT C安全编程规范50节-POSIX（POS）",
+      "title_en": "CERT C Secure Coding Section 50 - POSIX (POS) (2.4)"
+    },
+    {
+      "_id": "CWE-749",
+      "title_zh": "暴露危险的方法或函数",
+      "title_en": "Exposed Dangerous Method or Function (2.4)"
+    },
+    {
+      "_id": "CWE-75",
+      "title_zh": "特殊命令到另一不同平面时的净化处理不恰当（特殊命令注入）",
+      "title_en": "Failure to Sanitize Special Elements into a Different Plane (Special Element Injection) (2.4)"
+    },
+    {
+      "_id": "CWE-750",
+      "title_zh": "2009 CWE/SANS Top 25最危险的编程错误中的安全弱点",
+      "title_en": "Weaknesses in the 2009 CWE/SANS Top 25 Most Dangerous Programming Errors (2.4)"
+    },
+    {
+      "_id": "CWE-751",
+      "title_zh": "2009 Top 25 - 组件间的不安全交互",
+      "title_en": "2009 Top 25 - Insecure Interaction Between Components (2.4)"
+    },
+    {
+      "_id": "CWE-752",
+      "title_zh": "2009 Top 25 - 高风险资源管理",
+      "title_en": "2009 Top 25 - Risky Resource Management (2.4)"
+    },
+    {
+      "_id": "CWE-753",
+      "title_zh": "2009 Top 25 - 可渗透的防御机制",
+      "title_en": "2009 Top 25 - Porous Defenses (2.4)"
+    },
+    {
+      "_id": "CWE-754",
+      "title_zh": "对因果或异常条件的不恰当检查",
+      "title_en": "Improper Check for Unusual or Exceptional Conditions (2.4)"
+    },
+    {
+      "_id": "CWE-755",
+      "title_zh": "对异常条件的处理不恰当",
+      "title_en": "Improper Handling of Exceptional Conditions (2.4)"
+    },
+    {
+      "_id": "CWE-756",
+      "title_zh": "定制错误页面缺失",
+      "title_en": "Missing Custom Error Page (2.4)"
+    },
+    {
+      "_id": "CWE-757",
+      "title_zh": "在会话协商时选择低安全性的算法（算法降级）",
+      "title_en": "Selection of Less-Secure Algorithm During Negotiation ('Algorithm Downgrade') (2.4)"
+    },
+    {
+      "_id": "CWE-758",
+      "title_zh": "依赖未定义、未指明或实现定义的行为",
+      "title_en": "Reliance on Undefined, Unspecified, or Implementation-Defined Behavior (2.4)"
+    },
+    {
+      "_id": "CWE-759",
+      "title_zh": "使用未加Salt的单向哈希算法",
+      "title_en": "Use of a One-Way Hash without a Salt (2.4)"
+    },
+    {
+      "_id": "CWE-76",
+      "title_zh": "等价特殊元素的转义处理不恰当",
+      "title_en": "Improper Neutralization of Equivalent Special Elements (2.4)"
+    },
+    {
+      "_id": "CWE-760",
+      "title_zh": "使用可预测Salt的单向哈希算法",
+      "title_en": "Use of a One-Way Hash with a Predictable Salt (2.4)"
+    },
+    {
+      "_id": "CWE-761",
+      "title_zh": "释放一个不在缓冲区起始位置的指针",
+      "title_en": "Free of Pointer not at Start of Buffer (2.4)"
+    },
+    {
+      "_id": "CWE-762",
+      "title_zh": "不匹配的内存管理例程",
+      "title_en": "Mismatched Memory Management Routines (2.4)"
+    },
+    {
+      "_id": "CWE-763",
+      "title_zh": "对无效指针或索引的释放",
+      "title_en": "Release of Invalid Pointer or Reference (2.4)"
+    },
+    {
+      "_id": "CWE-764",
+      "title_zh": "关键资源的多重加锁",
+      "title_en": "Multiple Locks of a Critical Resource (2.4)"
+    },
+    {
+      "_id": "CWE-765",
+      "title_zh": "关键资源的多重解锁",
+      "title_en": "Multiple Unlocks of a Critical Resource (2.4)"
+    },
+    {
+      "_id": "CWE-766",
+      "title_zh": "关键变量被公开声明",
+      "title_en": "Critical Variable Declared Public (2.4)"
+    },
+    {
+      "_id": "CWE-767",
+      "title_zh": "通过公开方法可访问到关键的私有数据",
+      "title_en": "Access to Critical Private Variable via Public Method (2.4)"
+    },
+    {
+      "_id": "CWE-768",
+      "title_zh": "不正确的快捷方式验证",
+      "title_en": "Incorrect Short Circuit Evaluation (2.4)"
+    },
+    {
+      "_id": "CWE-769",
+      "title_zh": "文件描述符穷尽",
+      "title_en": "File Descriptor Exhaustion (2.4)"
+    },
+    {
+      "_id": "CWE-77",
+      "title_zh": "在命令中使用的特殊元素转义处理不恰当（命令注入）",
+      "title_en": "Improper Neutralization of Special Elements used in a Command ('Command Injection') (2.4)"
+    },
+    {
+      "_id": "CWE-770",
+      "title_zh": "不加限制或调节的资源分配",
+      "title_en": "Allocation of Resources Without Limits or Throttling (2.4)"
+    },
+    {
+      "_id": "CWE-771",
+      "title_zh": "对活跃已分配资源丧失索引",
+      "title_en": "Missing Reference to Active Allocated Resource (2.4)"
+    },
+    {
+      "_id": "CWE-772",
+      "title_zh": "对已超过有效生命周期的资源丧失索引",
+      "title_en": "Missing Release of Resource after Effective Lifetime (2.4)"
+    },
+    {
+      "_id": "CWE-773",
+      "title_zh": "对活跃文件描述符或句柄丧失索引",
+      "title_en": "Missing Reference to Active File Descriptor or Handle (2.4)"
+    },
+    {
+      "_id": "CWE-774",
+      "title_zh": "不加限制或调节进行文件描述符或句柄的分配",
+      "title_en": "Allocation of File Descriptors or Handles Without Limits or Throttling (2.4)"
+    },
+    {
+      "_id": "CWE-775",
+      "title_zh": "缺失文件描述符或句柄在有效生命周期之后的释放处理",
+      "title_en": "Missing Release of File Descriptor or Handle after Effective Lifetime (2.4)"
+    },
+    {
+      "_id": "CWE-776",
+      "title_zh": "DTD中递归实体索引的不恰当限制（XML实体扩展）",
+      "title_en": "Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion') (2.4)"
+    },
+    {
+      "_id": "CWE-777",
+      "title_zh": "没有下界集合的正则表达式",
+      "title_en": "Regular Expression without Anchors (2.4)"
+    },
+    {
+      "_id": "CWE-778",
+      "title_zh": "不充分的日志记录",
+      "title_en": "Insufficient Logging (2.4)"
+    },
+    {
+      "_id": "CWE-779",
+      "title_zh": "日志记录过多数据",
+      "title_en": "Logging of Excessive Data (2.4)"
+    },
+    {
+      "_id": "CWE-78",
+      "title_zh": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）",
+      "title_en": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') (2.4)"
+    },
+    {
+      "_id": "CWE-780",
+      "title_zh": "未配合OAEP使用RSA算法",
+      "title_en": "Use of RSA Algorithm without OAEP (2.4)"
+    },
+    {
+      "_id": "CWE-781",
+      "title_zh": "在METHOD_NEITHERIO控制代码中的IOCTL地址验证不恰当",
+      "title_en": "Improper Address Validation in IOCTL with METHOD_NEITHER I/O Control Code (2.4)"
+    },
+    {
+      "_id": "CWE-782",
+      "title_zh": "无充分访问控制条件下暴露IOCTL",
+      "title_en": "Exposed IOCTL with Insufficient Access Control (2.4)"
+    },
+    {
+      "_id": "CWE-783",
+      "title_zh": "操作符优先级逻辑错误",
+      "title_en": "Operator Precedence Logic Error (2.4)"
+    },
+    {
+      "_id": "CWE-784",
+      "title_zh": "在安全决策中依赖未经验证和完整性检查的Cookie",
+      "title_en": "Reliance on Cookies without Validation and Integrity Checking in a Security Decision (2.4)"
+    },
+    {
+      "_id": "CWE-785",
+      "title_zh": "路径操作函数中使用未进行大小限定的缓冲区",
+      "title_en": "Use of Path Manipulation Function without Maximum-sized Buffer (2.4)"
+    },
+    {
+      "_id": "CWE-786",
+      "title_zh": "在缓冲区起始位置之前访问内存",
+      "title_en": "Access of Memory Location Before Start of Buffer (2.4)"
+    },
+    {
+      "_id": "CWE-787",
+      "title_zh": "跨界内存写",
+      "title_en": "Out-of-bounds Write (2.4)"
+    },
+    {
+      "_id": "CWE-788",
+      "title_zh": "在缓冲区结束位置之后访问内存",
+      "title_en": "Access of Memory Location After End of Buffer (2.4)"
+    },
+    {
+      "_id": "CWE-789",
+      "title_zh": "未经控制的内存分配",
+      "title_en": "Uncontrolled Memory Allocation (2.4)"
+    },
+    {
+      "_id": "CWE-79",
+      "title_zh": "在Web页面生成时对输入的转义处理不恰当（跨站脚本）",
+      "title_en": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') (2.4)"
+    },
+    {
+      "_id": "CWE-790",
+      "title_zh": "特殊元素过滤不恰当",
+      "title_en": "Improper Filtering of Special Elements (2.4)"
+    },
+    {
+      "_id": "CWE-791",
+      "title_zh": "特殊元素过滤不完全",
+      "title_en": "Incomplete Filtering of Special Elements (2.4)"
+    },
+    {
+      "_id": "CWE-792",
+      "title_zh": "对一个或多个特殊元素实例的过滤不完全",
+      "title_en": "Incomplete Filtering of One or More Instances of Special Elements (2.4)"
+    },
+    {
+      "_id": "CWE-793",
+      "title_zh": "仅过滤一个特殊元素的单一实例",
+      "title_en": "Only Filtering One Instance of a Special Element (2.4)"
+    },
+    {
+      "_id": "CWE-794",
+      "title_zh": "对特殊元素的多个实例的过滤不完全",
+      "title_en": "Incomplete Filtering of Multiple Instances of Special Elements (2.4)"
+    },
+    {
+      "_id": "CWE-795",
+      "title_zh": "仅在一个特定位置过滤特殊元素",
+      "title_en": "Only Filtering Special Elements at a Specified Location (2.4)"
+    },
+    {
+      "_id": "CWE-796",
+      "title_zh": "仅过滤与一个标记相关的特殊元素",
+      "title_en": "Only Filtering Special Elements Relative to a Marker (2.4)"
+    },
+    {
+      "_id": "CWE-797",
+      "title_zh": "仅在一个绝对路径位置过滤特殊元素",
+      "title_en": "Only Filtering Special Elements at an Absolute Position (2.4)"
+    },
+    {
+      "_id": "CWE-798",
+      "title_zh": "使用硬编码的凭证",
+      "title_en": "Use of Hard-coded Credentials (2.4)"
+    },
+    {
+      "_id": "CWE-799",
+      "title_zh": "交互频率的控制不恰当",
+      "title_en": "Improper Control of Interaction Frequency (2.4)"
+    },
+    {
+      "_id": "CWE-8",
+      "title_zh": "J2EE误配置：实体Bean远程声明",
+      "title_en": "J2EE Misconfiguration: Entity Bean Declared Remote (2.4)"
+    },
+    {
+      "_id": "CWE-80",
+      "title_zh": "Web页面中脚本相关HTML标签转义处理不恰当（基本跨站脚本）",
+      "title_en": "Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) (2.4)"
+    },
+    {
+      "_id": "CWE-800",
+      "title_zh": "2010 CWE/SANS Top 25最危险的编程错误导致安全弱点",
+      "title_en": "Weaknesses in the 2010 CWE/SANS Top 25 Most Dangerous Programming Errors (2.4)"
+    },
+    {
+      "_id": "CWE-801",
+      "title_zh": "2010 Top 25 - 模块间不安全交互",
+      "title_en": "2010 Top 25 - Insecure Interaction Between Components (2.4)"
+    },
+    {
+      "_id": "CWE-802",
+      "title_zh": "2010 Top 25 - 高风险资源管理",
+      "title_en": "2010 Top 25 - Risky Resource Management (2.4)"
+    },
+    {
+      "_id": "CWE-803",
+      "title_zh": "2010 Top 25 - 可渗透的防御机制",
+      "title_en": "2010 Top 25 - Porous Defenses (2.4)"
+    },
+    {
+      "_id": "CWE-804",
+      "title_zh": "可猜测的验证码",
+      "title_en": "Guessable CAPTCHA (2.4)"
+    },
+    {
+      "_id": "CWE-805",
+      "title_zh": "使用不正确的长度值访问缓冲区",
+      "title_en": "Buffer Access with Incorrect Length Value (2.4)"
+    },
+    {
+      "_id": "CWE-806",
+      "title_zh": "使用源缓冲区的大小访问缓冲区",
+      "title_en": "Buffer Access Using Size of Source Buffer (2.4)"
+    },
+    {
+      "_id": "CWE-807",
+      "title_zh": "在安全决策中依赖未经信任的输入",
+      "title_en": "Reliance on Untrusted Inputs in a Security Decision (2.4)"
+    },
+    {
+      "_id": "CWE-808",
+      "title_zh": "2010 Top 25 - 尖端上的安全漏洞",
+      "title_en": "2010 Top 25 - Weaknesses On the Cusp (2.4)"
+    },
+    {
+      "_id": "CWE-809",
+      "title_zh": "OWASP Top Ten (2010)安全漏洞",
+      "title_en": "Weaknesses in OWASP Top Ten (2010) (2.4)"
+    },
+    {
+      "_id": "CWE-81",
+      "title_zh": "错误消息Web页面中脚本转义处理不恰当",
+      "title_en": "Improper Neutralization of Script in an Error Message Web Page (2.4)"
+    },
+    {
+      "_id": "CWE-810",
+      "title_zh": "OWASP Top Ten 2010 A1目录 - 注入",
+      "title_en": "OWASP Top Ten 2010 Category A1 - Injection (2.4)"
+    },
+    {
+      "_id": "CWE-811",
+      "title_zh": "OWASP Top Ten 2010 A2目录 - 跨站脚本(XSS)",
+      "title_en": "OWASP Top Ten 2010 Category A2 - Cross-Site Scripting (XSS) (2.4)"
+    },
+    {
+      "_id": "CWE-812",
+      "title_zh": "OWASP Top Ten 2010 A3目录 - 不安全的认证与会话管理机制",
+      "title_en": "OWASP Top Ten 2010 Category A3 - Broken Authentication and Session Management (2.4)"
+    },
+    {
+      "_id": "CWE-813",
+      "title_zh": "OWASP Top Ten 2010 A4目录 - 不安全的直接对象引用",
+      "title_en": "OWASP Top Ten 2010 Category A4 - Insecure Direct Object References (2.4)"
+    },
+    {
+      "_id": "CWE-814",
+      "title_zh": "OWASP Top Ten 2010 A5目录 - 跨站请求伪造(CSRF)",
+      "title_en": "OWASP Top Ten 2010 Category A5 - Cross-Site Request Forgery(CSRF) (2.4)"
+    },
+    {
+      "_id": "CWE-815",
+      "title_zh": "OWASP Top Ten 2010 A6目录 - 安全误配置",
+      "title_en": "OWASP Top Ten 2010 Category A6 - Security Misconfiguration (2.4)"
+    },
+    {
+      "_id": "CWE-816",
+      "title_zh": "OWASP Top Ten 2010 A7目录 - 不安全的密码学存储",
+      "title_en": "OWASP Top Ten 2010 Category A7 - Insecure Cryptographic Storage (2.4)"
+    },
+    {
+      "_id": "CWE-817",
+      "title_zh": "OWASP Top Ten 2010 A8目录 - 未能限制URL访问",
+      "title_en": "OWASP Top Ten 2010 Category A8 - Failure to Restrict URL Access (2.4)"
+    },
+    {
+      "_id": "CWE-818",
+      "title_zh": "OWASP Top Ten 2010 A9目录 - 传输层保护机制不充分",
+      "title_en": "OWASP Top Ten 2010 Category A9 - Insufficient Transport Layer Protection (2.4)"
+    },
+    {
+      "_id": "CWE-819",
+      "title_zh": "OWASP Top Ten 2010 A10目录 - 未经验证的重定向与前向浏览",
+      "title_en": "OWASP Top Ten 2010 Category A10 - Unvalidated Redirects and Forwards (2.4)"
+    },
+    {
+      "_id": "CWE-82",
+      "title_zh": "Web页面IMG标签属性中脚本转义处理不恰当",
+      "title_en": "Improper Neutralization of Script in Attributes of IMG Tags in a Web Page (2.4)"
+    },
+    {
+      "_id": "CWE-820",
+      "title_zh": "缺失同步机制",
+      "title_en": "Missing Synchronization (2.4)"
+    },
+    {
+      "_id": "CWE-821",
+      "title_zh": "不正确的同步机制",
+      "title_en": "Incorrect Synchronization (2.4)"
+    },
+    {
+      "_id": "CWE-822",
+      "title_zh": "非可信指针解引用",
+      "title_en": "Untrusted Pointer Dereference (2.4)"
+    },
+    {
+      "_id": "CWE-823",
+      "title_zh": "使用越界的指针偏移",
+      "title_en": "Use of Out-of-range Pointer Offset (2.4)"
+    },
+    {
+      "_id": "CWE-824",
+      "title_zh": "使用未经初始化的指针",
+      "title_en": "Access of Uninitialized Pointer (2.4)"
+    },
+    {
+      "_id": "CWE-825",
+      "title_zh": "无效指针解引用",
+      "title_en": "Expired Pointer Dereference (2.4)"
+    },
+    {
+      "_id": "CWE-826",
+      "title_zh": "在预期生命周期中对资源的过早释放",
+      "title_en": "Premature Release of Resource During Expected Lifetime (2.4)"
+    },
+    {
+      "_id": "CWE-827",
+      "title_zh": "文档类型定义的不恰当控制",
+      "title_en": "Improper Control of Document Type Definition (2.4)"
+    },
+    {
+      "_id": "CWE-828",
+      "title_zh": "非异步安全功能中的信号处理例程",
+      "title_en": "Signal Handler with Functionality that is not Asynchronous-Safe (2.4)"
+    },
+    {
+      "_id": "CWE-829",
+      "title_zh": "从非可信控制范围包含功能例程",
+      "title_en": "Inclusion of Functionality from Untrusted Control Sphere (2.4)"
+    },
+    {
+      "_id": "CWE-83",
+      "title_zh": "Web页面属性中脚本转义处理不恰当",
+      "title_en": "Improper Neutralization of Script in Attributes in a Web Page (2.4)"
+    },
+    {
+      "_id": "CWE-830",
+      "title_zh": "从非可信源包含Web功能例程",
+      "title_en": "Inclusion of Web Functionality from an Untrusted Source (2.4)"
+    },
+    {
+      "_id": "CWE-831",
+      "title_zh": "与多个信号关联的信号处理例程",
+      "title_en": "Signal Handler Function Associated with Multiple Signals (2.4)"
+    },
+    {
+      "_id": "CWE-832",
+      "title_zh": "对未加锁的资源进行解锁",
+      "title_en": "Unlock of a Resource that is not Locked (2.4)"
+    },
+    {
+      "_id": "CWE-833",
+      "title_zh": "死锁",
+      "title_en": "Deadlock (2.4)"
+    },
+    {
+      "_id": "CWE-834",
+      "title_zh": "过度迭代",
+      "title_en": "Excessive Iteration (2.4)"
+    },
+    {
+      "_id": "CWE-835",
+      "title_zh": "不可达退出条件的循环（无限循环）",
+      "title_en": "Loop with Unreachable Exit Condition ('Infinite Loop') (2.4)"
+    },
+    {
+      "_id": "CWE-836",
+      "title_zh": "在认证机制中使用口令哈希代替口令",
+      "title_en": "Use of Password Hash Instead of Password for Authentication (2.4)"
+    },
+    {
+      "_id": "CWE-837",
+      "title_zh": "对单一独特动作的实施不恰当",
+      "title_en": "Improper Enforcement of a Single, Unique Action (2.4)"
+    },
+    {
+      "_id": "CWE-838",
+      "title_zh": "输出上下文语义编码不恰当",
+      "title_en": "Inappropriate Encoding for Output Context (2.4)"
+    },
+    {
+      "_id": "CWE-839",
+      "title_zh": "未进行最小值检查的数值范围比较",
+      "title_en": "Numeric Range Comparison Without Minimum Check (2.4)"
+    },
+    {
+      "_id": "CWE-84",
+      "title_zh": "Web页面编码URIScheme转义处理不恰当",
+      "title_en": "Improper Neutralization of Encoded URI Schemes in a Web Page (2.4)"
+    },
+    {
+      "_id": "CWE-840",
+      "title_zh": "业务逻辑错误",
+      "title_en": "Business Logic Errors (2.4)"
+    },
+    {
+      "_id": "CWE-841",
+      "title_zh": "行为工作流的不恰当实施",
+      "title_en": "Improper Enforcement of Behavioral Workflow (2.4)"
+    },
+    {
+      "_id": "CWE-842",
+      "title_zh": "将用户置入不正确的用户组",
+      "title_en": "Placement of User into Incorrect Group (2.4)"
+    },
+    {
+      "_id": "CWE-843",
+      "title_zh": "使用不兼容类型访问资源（类型混淆）",
+      "title_en": "Access of Resource Using Incompatible Type ('Type Confusion') (2.4)"
+    },
+    {
+      "_id": "CWE-844",
+      "title_zh": "CERT Java安全编码规范中解决的安全弱点",
+      "title_en": "Weaknesses Addressed by the CERT Java Secure Coding Standard (2.4)"
+    },
+    {
+      "_id": "CWE-845",
+      "title_zh": "CERT Java安全编码规范00节-输入验证与数据净化（IDS）",
+      "title_en": "CERT Java Secure Coding Section 00 - Input Validation and Data Sanitization (IDS) (2.4)"
+    },
+    {
+      "_id": "CWE-846",
+      "title_zh": "CERT Java安全编码规范01节-声明与初始化（DCL）",
+      "title_en": "CERT Java Secure Coding Section 01 - Declarations and Initialization (DCL) (2.4)"
+    },
+    {
+      "_id": "CWE-847",
+      "title_zh": "CERT Java安全编码规范02节-表达式（EXP）",
+      "title_en": "CERT Java Secure Coding Section 02 - Expressions (EXP) (2.4)"
+    },
+    {
+      "_id": "CWE-848",
+      "title_zh": "CERT Java安全编码规范03节-数值类型和操作（NUM）",
+      "title_en": "CERT Java Secure Coding Section 03 - Numeric Types and Operations (NUM) (2.4)"
+    },
+    {
+      "_id": "CWE-849",
+      "title_zh": "CERT Java安全编码规范04节-面向对象（OBJ）",
+      "title_en": "CERT Java Secure Coding Section 04 - Object Orientation (OBJ) (2.4)"
+    },
+    {
+      "_id": "CWE-85",
+      "title_zh": "双字符XSS操纵",
+      "title_en": "Doubled Character XSS Manipulations (2.4)"
+    },
+    {
+      "_id": "CWE-850",
+      "title_zh": "CERT Java安全编码规范05节-方法（MET）",
+      "title_en": "CERT Java Secure Coding Section 05 - Methods (MET) (2.4)"
+    },
+    {
+      "_id": "CWE-851",
+      "title_zh": "CERT Java安全编码规范06节-异常行为（ERR）",
+      "title_en": "CERT Java Secure Coding Section 06 - Exceptional Behavior (ERR) (2.4)"
+    },
+    {
+      "_id": "CWE-852",
+      "title_zh": "CERT Java安全编码规范07节-可视性与原子性（VNA）",
+      "title_en": "CERT Java Secure Coding Section 07 - Visibility and Atomicity (VNA) (2.4)"
+    },
+    {
+      "_id": "CWE-853",
+      "title_zh": "CERT Java安全编码规范08节-加锁机制（LCK）",
+      "title_en": "CERT Java Secure Coding Section 08 - Locking (LCK) (2.4)"
+    },
+    {
+      "_id": "CWE-854",
+      "title_zh": "CERT Java安全编码规范09节-线程API（THI）",
+      "title_en": "CERT Java Secure Coding Section 09 - Thread APIs (THI) (2.4)"
+    },
+    {
+      "_id": "CWE-855",
+      "title_zh": "CERT Java安全编码规范10节-线程池（TPS）",
+      "title_en": "CERT Java Secure Coding Section 10 - Thread Pools (TPS) (2.4)"
+    },
+    {
+      "_id": "CWE-856",
+      "title_zh": "CERT Java安全编码规范11节-线程安全（TSM）",
+      "title_en": "CERT Java Secure Coding Section 11 - Thread-Safety Miscellaneous (TSM) (2.4)"
+    },
+    {
+      "_id": "CWE-857",
+      "title_zh": "CERT Java安全编码规范12节-输入输出（FIO）",
+      "title_en": "CERT Java Secure Coding Section 12 - Input Output (FIO) (2.4)"
+    },
+    {
+      "_id": "CWE-858",
+      "title_zh": "CERT Java安全编码规范13节-序列化（SER）",
+      "title_en": "CERT Java Secure Coding Section 13 - Serialization (SER) (2.4)"
+    },
+    {
+      "_id": "CWE-859",
+      "title_zh": "CERT Java安全编码规范14节-平台安全（SEC）",
+      "title_en": "CERT Java Secure Coding Section 14 - Platform Security (SEC) (2.4)"
+    },
+    {
+      "_id": "CWE-86",
+      "title_zh": "Web页面标识中非法字符转义处理不恰当",
+      "title_en": "Improper Neutralization of Invalid Characters in Identifiers in Web Pages (2.4)"
+    },
+    {
+      "_id": "CWE-860",
+      "title_zh": "CERT Java安全编码规范15节-运行环境（ENV）",
+      "title_en": "CERT Java Secure Coding Section 15 - Runtime Environment (ENV) (2.4)"
+    },
+    {
+      "_id": "CWE-861",
+      "title_zh": "CERT Java安全编码规范49节-混杂目录（MSC）",
+      "title_en": "CERT Java Secure Coding Section 49 - Miscellaneous (MSC) (2.4)"
+    },
+    {
+      "_id": "CWE-862",
+      "title_zh": "授权机制缺失",
+      "title_en": "Missing Authorization (2.4)"
+    },
+    {
+      "_id": "CWE-863",
+      "title_zh": "授权机制不正确",
+      "title_en": "Incorrect Authorization (2.4)"
+    },
+    {
+      "_id": "CWE-864",
+      "title_zh": "2011 Top 25 - 组件间不安全交互",
+      "title_en": "2011 Top 25 - Insecure Interaction Between Components (2.4)"
+    },
+    {
+      "_id": "CWE-865",
+      "title_zh": "2011 Top 25 - 高风险的资源管理",
+      "title_en": "2011 Top 25 - Risky Resource Management (2.4)"
+    },
+    {
+      "_id": "CWE-866",
+      "title_zh": "2011 Top 25 - 可渗透的防御机制",
+      "title_en": "2011 Top 25 - Porous Defenses (2.4)"
+    },
+    {
+      "_id": "CWE-867",
+      "title_zh": "2011 Top 25 - 尖端上的弱点",
+      "title_en": "2011 Top 25 - Weaknesses On the Cusp (2.4)"
+    },
+    {
+      "_id": "CWE-868",
+      "title_zh": "CERT C++安全编程规范中解决的安全弱点",
+      "title_en": "Weaknesses Addressed by the CERT C++ Secure Coding Standard (2.4)"
+    },
+    {
+      "_id": "CWE-869",
+      "title_zh": "CERT C++安全编程规范01节-预处理器（PRE",
+      "title_en": "CERT C++ Secure Coding Section 01 - Preprocessor (PRE) (2.4)"
+    },
+    {
+      "_id": "CWE-87",
+      "title_zh": "替代XSS语法转义处理不恰当",
+      "title_en": "Improper Neutralization of Alternate XSS Syntax (2.4)"
+    },
+    {
+      "_id": "CWE-870",
+      "title_zh": "CERT C++安全编程规范02节-声明与初始化（DCL）",
+      "title_en": "CERT C++ Secure Coding Section 02 - Declarations and Initialization (DCL) (2.4)"
+    },
+    {
+      "_id": "CWE-871",
+      "title_zh": "CERT C++安全编程规范03节-表达式（EXP）",
+      "title_en": "CERT C++ Secure Coding Section 03 - Expressions (EXP) (2.4)"
+    },
+    {
+      "_id": "CWE-872",
+      "title_zh": "CERT C++安全编程规范04节-整数（INT）",
+      "title_en": "CERT C++ Secure Coding Section 04 - Integers (INT) (2.4)"
+    },
+    {
+      "_id": "CWE-873",
+      "title_zh": "CERT C++安全编程规范05节-浮点数计算（FLP）",
+      "title_en": "CERT C++ Secure Coding Section 05 - Floating Point Arithmetic (FLP) (2.4)"
+    },
+    {
+      "_id": "CWE-874",
+      "title_zh": "CERT C++安全编程规范06节-数组与STL容器（ARR）",
+      "title_en": "CERT C++ Secure Coding Section 06 - Arrays and the STL (ARR) (2.4)"
+    },
+    {
+      "_id": "CWE-875",
+      "title_zh": "CERT C++安全编程规范07节-字符与字符串（STR）",
+      "title_en": "CERT C++ Secure Coding Section 07 - Characters and Strings (STR) (2.4)"
+    },
+    {
+      "_id": "CWE-876",
+      "title_zh": "CERT C++安全编程规范08节-内存管理（MEM）",
+      "title_en": "CERT C++ Secure Coding Section 08 - Memory Management (MEM) (2.4)"
+    },
+    {
+      "_id": "CWE-877",
+      "title_zh": "CERT C++安全编程规范09节-输入输出（FIO）",
+      "title_en": "CERT C++ Secure Coding Section 09 - Input Output (FIO) (2.4)"
+    },
+    {
+      "_id": "CWE-878",
+      "title_zh": "CERT C++安全编程规范10节-环境（ENV）",
+      "title_en": "CERT C++ Secure Coding Section 10 - Environment (ENV) (2.4)"
+    },
+    {
+      "_id": "CWE-879",
+      "title_zh": "CERT C++安全编程规范11节-信号（SIG）",
+      "title_en": "CERT C++ Secure Coding Section 11 - Signals (SIG) (2.4)"
+    },
+    {
+      "_id": "CWE-88",
+      "title_zh": "参数注入或修改",
+      "title_en": "Argument Injection or Modification (2.4)"
+    },
+    {
+      "_id": "CWE-880",
+      "title_zh": "CERT C++安全编程规范12节-异常与错误处理（ERR）",
+      "title_en": "CERT C++ Secure Coding Section 12 - Exceptions and Error Handling (ERR) (2.4)"
+    },
+    {
+      "_id": "CWE-881",
+      "title_zh": "CERT C++安全编程规范13节-面向对象编程（OOP）",
+      "title_en": "CERT C++ Secure Coding Section 13 - Object Oriented Programming (OOP) (2.4)"
+    },
+    {
+      "_id": "CWE-882",
+      "title_zh": "CERT C++安全编程规范14节-同步机制（CON）",
+      "title_en": "CERT C++ Secure Coding Section 14 - Concurrency (CON) (2.4)"
+    },
+    {
+      "_id": "CWE-883",
+      "title_zh": "CERT C++安全编程规范49节-混杂目录（MSC）",
+      "title_en": "CERT C++ Secure Coding Section 49 - Miscellaneous (MSC) (2.4)"
+    },
+    {
+      "_id": "CWE-884",
+      "title_zh": "CWE交叉目录",
+      "title_en": "CWE Cross-section (2.4)"
+    },
+    {
+      "_id": "CWE-885",
+      "title_zh": "软件错误模式：高风险值",
+      "title_en": "SFP Cluster: Risky Values (2.4)"
+    },
+    {
+      "_id": "CWE-886",
+      "title_zh": "软件错误模式：未使用实体",
+      "title_en": "SFP Cluster: Unused entities (2.4)"
+    },
+    {
+      "_id": "CWE-887",
+      "title_zh": "软件错误模式：API",
+      "title_en": "SFP Cluster: API (2.4)"
+    },
+    {
+      "_id": "CWE-888",
+      "title_zh": "软件错误模式(SFP)",
+      "title_en": "Software Fault Pattern (SFP) Clusters (2.4)"
+    },
+    {
+      "_id": "CWE-889",
+      "title_zh": "软件错误模式：异常管理",
+      "title_en": "SFP Cluster: Exception Management (2.4)"
+    },
+    {
+      "_id": "CWE-89",
+      "title_zh": "SQL命令中使用的特殊元素转义处理不恰当（SQL注入）",
+      "title_en": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') (2.4)"
+    },
+    {
+      "_id": "CWE-890",
+      "title_zh": "软件错误模式：内存访问",
+      "title_en": "SFP Cluster: Memory Access (2.4)"
+    },
+    {
+      "_id": "CWE-891",
+      "title_zh": "软件错误模式：内存管理",
+      "title_en": "SFP Cluster: Memory Management (2.4)"
+    },
+    {
+      "_id": "CWE-892",
+      "title_zh": "软件错误模式：资源管理",
+      "title_en": "SFP Cluster: Resource Management (2.4)"
+    },
+    {
+      "_id": "CWE-893",
+      "title_zh": "软件错误模式：路径解析",
+      "title_en": "SFP Cluster: Path Resolution (2.4)"
+    },
+    {
+      "_id": "CWE-894",
+      "title_zh": "软件错误模式：同步机制",
+      "title_en": "SFP Cluster: Synchronization (2.4)"
+    },
+    {
+      "_id": "CWE-895",
+      "title_zh": "软件错误模式：信息泄露",
+      "title_en": "SFP Cluster: Information Leak (2.4)"
+    },
+    {
+      "_id": "CWE-896",
+      "title_zh": "软件错误模式：污染输入",
+      "title_en": "SFP Cluster: Tainted Input (2.4)"
+    },
+    {
+      "_id": "CWE-897",
+      "title_zh": "软件错误模式：入口点",
+      "title_en": "SFP Cluster: Entry Points (2.4)"
+    },
+    {
+      "_id": "CWE-898",
+      "title_zh": "软件错误模式：认证协议",
+      "title_en": "SFP Cluster: Authentication (2.4)"
+    },
+    {
+      "_id": "CWE-899",
+      "title_zh": "软件错误模式：访问控制",
+      "title_en": "SFP Cluster: Access Control (2.4)"
+    },
+    {
+      "_id": "CWE-9",
+      "title_zh": "J2EE误配置：EJB方法弱访问权限",
+      "title_en": "J2EE Misconfiguration: Weak Access Permissions for EJB Methods (2.4)"
+    },
+    {
+      "_id": "CWE-90",
+      "title_zh": "LDAP查询中使用的特殊元素转义处理不恰当（LDAP注入）",
+      "title_en": "Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection') (2.4)"
+    },
+    {
+      "_id": "CWE-900",
+      "title_zh": "2011 CWE/SANS Top 25最危险软件错误",
+      "title_en": "Weaknesses in the 2011 CWE/SANS Top 25 Most Dangerous Software Errors (2.4)"
+    },
+    {
+      "_id": "CWE-901",
+      "title_zh": "软件错误模式：特权",
+      "title_en": "SFP Cluster: Privilege (2.4)"
+    },
+    {
+      "_id": "CWE-902",
+      "title_zh": "软件错误模式：通道",
+      "title_en": "SFP Cluster: Channel (2.4)"
+    },
+    {
+      "_id": "CWE-903",
+      "title_zh": "软件错误模式：密码学",
+      "title_en": "SFP Cluster: Cryptography (2.4)"
+    },
+    {
+      "_id": "CWE-904",
+      "title_zh": "软件错误模式：恶意代码",
+      "title_en": "SFP Cluster: Malware (2.4)"
+    },
+    {
+      "_id": "CWE-905",
+      "title_zh": "软件错误模式：可预测性",
+      "title_en": "SFP Cluster: Predictability (2.4)"
+    },
+    {
+      "_id": "CWE-906",
+      "title_zh": "软件错误模式：用户接口",
+      "title_en": "SFP Cluster: UI (2.4)"
+    },
+    {
+      "_id": "CWE-907",
+      "title_zh": "软件错误模式：其他",
+      "title_en": "SFP Cluster: Other (2.4)"
+    },
+    {
+      "_id": "CWE-908",
+      "title_zh": "对未经初始化资源的使用",
+      "title_en": "Use of Uninitialized Resource (2.4)"
+    },
+    {
+      "_id": "CWE-909",
+      "title_zh": "资源初始化缺失",
+      "title_en": "Missing Initialization of Resource (2.4)"
+    },
+    {
+      "_id": "CWE-91",
+      "title_zh": "XML注入（XPath盲注）",
+      "title_en": "XML Injection (aka Blind XPath Injection) (2.4)"
+    },
+    {
+      "_id": "CWE-910",
+      "title_zh": "使用过期的文件描述符",
+      "title_en": "Use of Expired File Descriptor (2.4)"
+    },
+    {
+      "_id": "CWE-911",
+      "title_zh": "引用计数的更新不恰当",
+      "title_en": "Improper Update of Reference Count (2.4)"
+    },
+    {
+      "_id": "CWE-912",
+      "title_zh": "隐藏功能",
+      "title_en": "Hidden Functionality (2.4)"
+    },
+    {
+      "_id": "CWE-913",
+      "title_zh": "动态管理代码资源的控制不恰当",
+      "title_en": "Improper Control of Dynamically-Managed Code Resources (2.4)"
+    },
+    {
+      "_id": "CWE-914",
+      "title_zh": "动态识别变量的控制不恰当",
+      "title_en": "Improper Control of Dynamically-Identified Variables (2.4)"
+    },
+    {
+      "_id": "CWE-915",
+      "title_zh": "动态确定对象属性修改的控制不恰当",
+      "title_en": "Improperly Controlled Modification of Dynamically-Determined Object Attributes (2.4)"
+    },
+    {
+      "_id": "CWE-916",
+      "title_zh": "使用具有不充分计算复杂性的口令哈希",
+      "title_en": "Use of Password Hash With Insufficient Computational Effort (2.4)"
+    },
+    {
+      "_id": "CWE-917",
+      "title_zh": "表达式语言语句中使用的特殊元素转义处理不恰当（表达式语言注入）",
+      "title_en": "Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection') (2.4)"
+    },
+    {
+      "_id": "CWE-918",
+      "title_zh": "服务端请求伪造（SSRF）",
+      "title_en": "Server-Side Request Forgery (SSRF) (2.4)"
+    },
+    {
+      "_id": "CWE-92",
+      "title_zh": "废弃：对定制特殊字符的规范化不恰当",
+      "title_en": "DEPRECATED: Improper Sanitization of Custom Special Characters (2.4)"
+    },
+    {
+      "_id": "CWE-93",
+      "title_zh": "对CRLF序列的转义处理不恰当（CRLF注入）",
+      "title_en": "Improper Neutralization of CRLF Sequences ('CRLF Injection') (2.4)"
+    },
+    {
+      "_id": "CWE-94",
+      "title_zh": "对生成代码的控制不恰当（代码注入）",
+      "title_en": "Improper Control of Generation of Code ('Code Injection') (2.4)"
+    },
+    {
+      "_id": "CWE-95",
+      "title_zh": "动态执行代码中指令转义处理不恰当（Eval注入）",
+      "title_en": "Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection') (2.4)"
+    },
+    {
+      "_id": "CWE-96",
+      "title_zh": "静态存储代码中指令转义处理不恰当（静态代码注入）",
+      "title_en": "Improper Neutralization of Directives in Statically Saved Code ('Static Code Injection') (2.4)"
+    },
+    {
+      "_id": "CWE-97",
+      "title_zh": "Web页面中服务端引用（SSI）转义处理不恰当",
+      "title_en": "Improper Neutralization of Server-Side Includes (SSI) Within a Web Page (2.4)"
+    },
+    {
+      "_id": "CWE-98",
+      "title_zh": "PHP程序中Include/Require语句包含文件控制不恰当(PHP远程文件包含)",
+      "title_en": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') (2.4)"
+    },
+    {
+      "_id": "CWE-99",
+      "title_zh": "对资源描述符的控制不恰当（资源注入）",
+      "title_en": "Improper Control of Resource Identifiers ('Resource Injection') (2.4)"
+    }
+  ]
+}

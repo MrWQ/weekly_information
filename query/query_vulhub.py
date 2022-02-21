@@ -9,6 +9,7 @@
 import requests
 import re
 import math
+import json
 from config import UA,TIMEOUT
 
 
@@ -20,6 +21,7 @@ class VULHUB:
         self.cnnvd_list = []
         self.cnvd_list = []
         self.all_data = []
+        self.cwe_list = self.load_cwe()
 
     def query_html_by_date(self, start_date, end_date, pages=1):
         """
@@ -189,44 +191,44 @@ class VULHUB:
         # self.cve_list = list(set(self.cve_list))
         return self.all_data
 
-    # def get_all_cnnvd(self, start_date, end_date):
-    #     """
-    #     指定时间范围，获得所有cnnvd编号
-    #     :param start_date:
-    #     :param end_date:
-    #     :return:
-    #     """
-    #     if self.cnnvd_list:
-    #         return self.cnnvd_list
-    #     if not self.vhn_list:
-    #         self.get_all_vhn(start_date, end_date)
-    #     for vhn in self.vhn_list:
-    #         query_url = "http://vulhub.org.cn/vuln/{}".format(vhn)
-    #         resp = requests.get(url=query_url, headers=UA().get_ua(), timeout=TIMEOUT)
-    #         html = resp.text
-    #         cve = self.parse_cve(html)
-    #         cnnvd = self.parse_cnnvd(html)
-    #         self.cve_list.append(cve)
-    #         self.cnnvd_list.append(cnnvd)
-    #         self.all_code.append({"vhn":vhn,"cve":cve,"cnnvd":cnnvd})
-    #     self.cnnvd_list = list(set(self.cnnvd_list))
-    #     return self.cnnvd_list
-
     def get_all_code(self, start_date, end_date):
         if self.all_data:
             return self.all_data
         self.get_all_data(start_date, end_date)
         return self.all_data
 
+    def load_cwe(self):
+        """
+        从json文件加载cwe
+        :return:
+        """
+        with open("enum_cwe.json", 'r', encoding='utf8') as f:
+            cwe_json = json.load(f)
+        cwe_list = cwe_json["RECORDS"]
+        return cwe_list
+
+    def get_cwe_description(self, cwe_id):
+        """
+        获取cwe描述
+        :param cwe_id:
+        :return:
+        """
+        cwe_id = str(cwe_id).upper()
+        for i in self.cwe_list:
+            if i["_id"] == cwe_id:
+                return i["title_zh"]
+
 
 if __name__ == '__main__':
     vulhub =VULHUB()
-    start_date = "2021-10-30"
-    end_date = "2021-11-05"
+    start_date = "2022-02-16"
+    end_date = "2022-02-17"
     # all_html = vulhub.get_all_vhn(start_date, end_date)
     # vulhub.parse_query_html(all_html)
     # print(vulhub.vhn_list)
     # print(vulhub.get_all_vhn(start_date, end_date))
     # print(vulhub.get_all_cve(start_date, end_date))
     # print(vulhub.get_all_cnnvd(start_date, end_date))
+
     print(vulhub.get_all_code(start_date, end_date))
+    print(vulhub.get_cwe_description("cwe-200"))

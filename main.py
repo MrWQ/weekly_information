@@ -27,6 +27,8 @@ nvd = NVD()
 # cnnvd = CNNVD()
 
 print("爬取VULHUB...")
+this_week_start = "2022-02-16"
+this_week_end = "2022-02-17"
 vulhub_info = vulhub.get_all_code(this_week_start, this_week_end)
 # 打印总数,可以按需求注释掉
 print("本周总数：", str(len(vulhub_info)))
@@ -38,6 +40,7 @@ good_txt = "weekly_good_infomation{}to{}.txt".format(this_week_start,this_week_e
 with open(txt_file_name, 'w', encoding='utf8') as f:
     f.write('')
 print("逐条打印并输出到文件（{}）：".format(txt_file_name))
+print("默认是所有数据都爬取cwe，加参数则只有good_information才爬取cwe")
 if len(sys.argv) > 1:
     for vul in vulhub_info:
 
@@ -50,6 +53,7 @@ if len(sys.argv) > 1:
         if (vul["cve"] and vul["cnvd"] and vul["cnnvd"]) or "高" in vul["level"]:
             # 只有好的数据才爬取cwe
             vul['cwe'] = nvd.query_cwe(vul['cve'])
+            vul["type"] = vulhub.get_cwe_description(vul['cwe'])
             good_vul = vul
             vul_good_str = json.dumps(good_vul, indent=4, ensure_ascii=False)
             with open(good_txt, 'a', encoding='utf8') as f:
@@ -73,6 +77,7 @@ else:
 
         # 输出有cve、cnvd、cnnvd的数据
         if vul["cve"] and vul["cnvd"] and vul["cnnvd"]:
+            vul["type"] = vulhub.get_cwe_description(vul['cwe'])
             good_vul = vul
             vul_good_str = json.dumps(good_vul, indent=4, ensure_ascii=False)
             with open(good_txt, 'a', encoding='utf8') as f:
